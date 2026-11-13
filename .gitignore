@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+generated/
+.venv/
+venv/
+*.pt
+*.pth
+*.safetensors
+*.mp4
+data/frames*/
+.env
+.env.*
