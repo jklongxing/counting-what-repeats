@@ -1,0 +1,10 @@
+{
+  "model": "merged",
+  "units": 580,
+  "parsed": 580,
+  "exact": 0.6655,
+  "once": 0.9257,
+  "repeated": 0.0682,
+  "binary": 0.6793,
+  "mae": 0.6328
+}

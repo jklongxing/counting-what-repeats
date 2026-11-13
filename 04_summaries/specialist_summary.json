@@ -1,0 +1,7 @@
+{
+  "model": "resnet18+bgru",
+  "units": 577,
+  "exact": 0.5026,
+  "once": 0.6034,
+  "repeated": 0.2632
+}

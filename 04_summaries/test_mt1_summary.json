@@ -1,0 +1,13 @@
+{
+  "adapter": "mt1",
+  "split": [
+    "test"
+  ],
+  "units": 121,
+  "exact": 0.4959,
+  "once": 1.0,
+  "repeated": 0.0,
+  "binary": 0.4959,
+  "mae": 0.6612,
+  "seconds": 287.0
+}

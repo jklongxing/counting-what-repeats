@@ -1,0 +1,11 @@
+{
+  "model": "resnet+gru+onset",
+  "units": 577,
+  "exact": 0.2773,
+  "once": 0.3276,
+  "repeated": 0.1579,
+  "mean_pred": 1.106,
+  "threshold": 0.9,
+  "dev_exact": 0.2768,
+  "mean_true": 1.504
+}

@@ -1,0 +1,1466 @@
+{
+ "count_dist": {
+  "1": 2591,
+  "2": 678,
+  "4": 140,
+  "3": 301
+ },
+ "splits": {
+  "train": 2555,
+  "dev": 578,
+  "test": 577
+ },
+ "total": 3710,
+ "frame_curve": {
+  "Qwen3-VL-8B": {
+   "4": 16.67,
+   "8": 29.31,
+   "16": 31.61,
+   "32": 37.93,
+   "128": 37.93,
+   "256": 36.21
+  },
+  "Qwen2.5-VL-7B": {
+   "4": 6.9,
+   "8": 11.49,
+   "16": 18.39,
+   "32": 23.56,
+   "128": 6.9
+  },
+  "InternVL3.5-8B": {
+   "4": 11.49,
+   "8": 25.29,
+   "16": 31.03,
+   "32": 32.76
+  }
+ },
+ "canonical": {
+  "universe": {
+   "total": 3710,
+   "by_split": {
+    "train": 2555,
+    "dev": 578,
+    "test": 577
+   },
+   "videos": 1563,
+   "count_dist": {
+    "1": 2591,
+    "2": 678,
+    "4": 140,
+    "3": 301
+   }
+  },
+  "prior": {
+   "actions": 59,
+   "mode_dist": {
+    "1": 53,
+    "4": 1,
+    "3": 1,
+    "2": 4
+   }
+  },
+  "scores": {
+   "zero_shot_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.4922,
+     "exact_raw": 0.4766
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.5197
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.4269,
+     "exact_raw": 0.3743
+    },
+    "binary": 0.6603
+   },
+   "zero_shot_dev": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.5087,
+     "exact_raw": 0.5035
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.5644
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3793,
+     "exact_raw": 0.3621
+    },
+    "binary": 0.6851
+   },
+   "lora_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7764,
+     "exact_raw": 0.7574
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.9187
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.4386,
+     "exact_raw": 0.3743
+    },
+    "binary": 0.8198
+   },
+   "lora_dev": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.782,
+     "exact_raw": 0.7682
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.9406
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.4138,
+     "exact_raw": 0.3678
+    },
+    "binary": 0.8235
+   },
+   "fullft_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7868,
+     "exact_raw": 0.7799
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.9828
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.3216,
+     "exact_raw": 0.2982
+    },
+    "binary": 0.8336
+   },
+   "fullft_dev": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.7889,
+     "exact_raw": 0.7837
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.9752
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3563,
+     "exact_raw": 0.3391
+    },
+    "binary": 0.8183
+   },
+   "balanced_lora_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7556,
+     "exact_raw": 0.7366
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.8498
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.5322,
+     "exact_raw": 0.4678
+    },
+    "binary": 0.799
+   },
+   "balanced_lora_dev": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.7612,
+     "exact_raw": 0.7457
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.896
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.4483,
+     "exact_raw": 0.3966
+    },
+    "binary": 0.8183
+   },
+   "seed7_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.766,
+     "exact_raw": 0.7556
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.9828
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.2515,
+     "exact_raw": 0.2164
+    },
+    "binary": 0.8059
+   },
+   "seed8_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7799,
+     "exact_raw": 0.7764
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.9729
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.3216,
+     "exact_raw": 0.3099
+    },
+    "binary": 0.8128
+   },
+   "head_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7886,
+     "exact_raw": 0.773
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.8818
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.5673,
+     "exact_raw": 0.5146
+    },
+    "binary": 0.8354
+   },
+   "qwen25_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.4142,
+     "exact_raw": 0.409
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.4951
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.2222,
+     "exact_raw": 0.2047
+    },
+    "binary": 0.6759
+   },
+   "qwen25_lora_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.7296,
+     "exact_raw": 0.7262
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.9975
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.0936,
+     "exact_raw": 0.0819
+    },
+    "binary": 0.7331
+   },
+   "internvl_test": {
+    "units": 577,
+    "parsed": 577,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 577,
+     "exact4": 0.5858,
+     "exact_raw": 0.5719
+    },
+    "once": {
+     "n": 406,
+     "acc": 0.6675
+    },
+    "repeated": {
+     "n": 171,
+     "exact4": 0.3918,
+     "exact_raw": 0.345
+    },
+    "binary": 0.6932
+   },
+   "internvl25_test": {
+    "units": 577,
+    "parsed": 487,
+    "parse_rate": 0.844,
+    "all": {
+     "n": 487,
+     "exact4": 0.2485,
+     "exact_raw": 0.2464
+    },
+    "once": {
+     "n": 346,
+     "acc": 0.1272
+    },
+    "repeated": {
+     "n": 141,
+     "exact4": 0.5461,
+     "exact_raw": 0.539
+    },
+    "binary": 0.3655
+   },
+   "val_base": {
+    "units": 959,
+    "parsed": 959,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 959,
+     "exact4": 0.4703,
+     "exact_raw": 0.4369
+    },
+    "once": {
+     "n": 480,
+     "acc": 0.575
+    },
+    "repeated": {
+     "n": 479,
+     "exact4": 0.3653,
+     "exact_raw": 0.2985
+    },
+    "binary": 0.6913
+   },
+   "val_lora": {
+    "units": 959,
+    "parsed": 959,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 959,
+     "exact4": 0.6152,
+     "exact_raw": 0.5829
+    },
+    "once": {
+     "n": 480,
+     "acc": 0.9292
+    },
+    "repeated": {
+     "n": 479,
+     "exact4": 0.3006,
+     "exact_raw": 0.2359
+    },
+    "binary": 0.6966
+   },
+   "val_head": {
+    "units": 959,
+    "parsed": 959,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 959,
+     "exact4": 0.6528,
+     "exact_raw": 0.6215
+    },
+    "once": {
+     "n": 480,
+     "acc": 0.8625
+    },
+    "repeated": {
+     "n": 479,
+     "exact4": 0.4426,
+     "exact_raw": 0.38
+    },
+    "binary": 0.7393
+   }
+  },
+  "prior_score": {
+   "units": 577,
+   "parsed": 577,
+   "parse_rate": 1.0,
+   "all": {
+    "n": 577,
+    "exact4": 0.7262,
+    "exact_raw": 0.7262
+   },
+   "once": {
+    "n": 406,
+    "acc": 0.9581
+   },
+   "repeated": {
+    "n": 171,
+    "exact4": 0.1754,
+    "exact_raw": 0.1754
+   },
+   "binary": 0.7504
+  },
+  "frame_curve_qwen3": {
+   "4": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.4343,
+     "exact_raw": 0.4325
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.5495
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.1667,
+     "exact_raw": 0.1609
+    },
+    "binary": 0.6644
+   },
+   "8": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.4481,
+     "exact_raw": 0.4481
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.5149
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.2931,
+     "exact_raw": 0.2931
+    },
+    "binary": 0.6522
+   },
+   "16": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.481,
+     "exact_raw": 0.4792
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.552
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3161,
+     "exact_raw": 0.3103
+    },
+    "binary": 0.6505
+   },
+   "32": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.5087,
+     "exact_raw": 0.5035
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.5644
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3793,
+     "exact_raw": 0.3621
+    },
+    "binary": 0.6851
+   },
+   "128": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.5381,
+     "exact_raw": 0.5277
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.6064
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3793,
+     "exact_raw": 0.3448
+    },
+    "binary": 0.6834
+   },
+   "256": {
+    "units": 578,
+    "parsed": 578,
+    "parse_rate": 1.0,
+    "all": {
+     "n": 578,
+     "exact4": 0.5709,
+     "exact_raw": 0.5606
+    },
+    "once": {
+     "n": 404,
+     "acc": 0.6609
+    },
+    "repeated": {
+     "n": 174,
+     "exact4": 0.3621,
+     "exact_raw": 0.3276
+    },
+    "binary": 0.6972
+   }
+  },
+  "tests": {
+   "head_minus_lora_repeated": {
+    "delta": 0.1287,
+    "ci": [
+     0.0566,
+     0.1943
+    ],
+    "p": 0.002,
+    "videos": 130
+   },
+   "head_minus_lora_all": {
+    "delta": 0.0121,
+    "ci": [
+     -0.0195,
+     0.0435
+    ],
+    "p": 0.457,
+    "videos": 236
+   },
+   "lora_minus_zeroshot_all": {
+    "delta": 0.2842,
+    "ci": [
+     0.2313,
+     0.3403
+    ],
+    "p": 0.0005,
+    "videos": 236
+   },
+   "lora_minus_zeroshot_repeated": {
+    "delta": 0.0117,
+    "ci": [
+     -0.0843,
+     0.1111
+    ],
+    "p": 0.856,
+    "videos": 130
+   },
+   "head_minus_prior_repeated": {
+    "delta": 0.3918,
+    "ci": [
+     0.3094,
+     0.4743
+    ],
+    "p": 0.0005,
+    "videos": 130
+   },
+   "zeroshot_minus_prior_all": {
+    "delta": -0.234,
+    "ci": [
+     -0.2876,
+     -0.1823
+    ],
+    "p": 0.0005,
+    "videos": 236
+   },
+   "val_head_minus_lora_repeated": {
+    "delta": 0.142,
+    "ci": [
+     0.0979,
+     0.1876
+    ],
+    "p": 0.0005,
+    "videos": 457
+   },
+   "val_lora_minus_base_all": {
+    "delta": 0.1449,
+    "ci": [
+     0.1071,
+     0.1821
+    ],
+    "p": 0.0005,
+    "videos": 852
+   }
+  },
+  "correlation": {
+   "zero_shot": {
+    "spearman": 0.2274,
+    "p": 3.3274221703013595e-08,
+    "n": 577
+   },
+   "lora": {
+    "spearman": 0.6011,
+    "p": 5.660355357356088e-58,
+    "n": 577
+   },
+   "head": {
+    "spearman": 0.6482,
+    "p": 4.462966779260075e-70,
+    "n": 577
+   }
+  }
+ },
+ "multiseed_probe": [
+  {
+   "adapter": "seed0",
+   "head_overall": 0.7917,
+   "head_overall_sd": 0.0158,
+   "head_once": 0.8926,
+   "head_repeated": 0.552,
+   "head_repeated_sd": 0.03
+  },
+  {
+   "adapter": "seed7",
+   "head_overall": 0.8007,
+   "head_overall_sd": 0.0111,
+   "head_once": 0.9044,
+   "head_repeated": 0.5544,
+   "head_repeated_sd": 0.0113
+  },
+  {
+   "adapter": "seed8",
+   "head_overall": 0.7847,
+   "head_overall_sd": 0.0133,
+   "head_once": 0.8941,
+   "head_repeated": 0.5251,
+   "head_repeated_sd": 0.0657
+  }
+ ],
+ "error_structure": {
+  "per_action": {
+   "zero-shot": {
+    "Breaking something": [
+     5,
+     1.0
+    ],
+    "Browsing through something": [
+     2,
+     0.5
+    ],
+    "Clapping hands": [
+     2,
+     0.5
+    ],
+    "Clicking something": [
+     3,
+     0.0
+    ],
+    "Closing something": [
+     29,
+     0.552
+    ],
+    "Covering something with something": [
+     23,
+     0.478
+    ],
+    "Crumpling something": [
+     2,
+     0.5
+    ],
+    "Drinking something from something": [
+     4,
+     0.0
+    ],
+    "Dropping something on top of something": [
+     5,
+     0.6
+    ],
+    "Folding something": [
+     3,
+     0.667
+    ],
+    "Hitting something against/with something": [
+     9,
+     0.333
+    ],
+    "Holding something in a state": [
+     30,
+     0.833
+    ],
+    "Indicating a region with the hand": [
+     11,
+     0.364
+    ],
+    "Ironing something": [
+     1,
+     0.0
+    ],
+    "Jingling something": [
+     2,
+     1.0
+    ],
+    "Juggling something": [
+     4,
+     0.0
+    ],
+    "Launching something": [
+     15,
+     0.2
+    ],
+    "Lifting something and placing it back down": [
+     6,
+     0.167
+    ],
+    "Mixing something with something": [
+     26,
+     0.769
+    ],
+    "Moving object(s) around": [
+     47,
+     0.17
+    ],
+    "Opening something": [
+     49,
+     0.653
+    ],
+    "Other": [
+     4,
+     0.75
+    ],
+    "Plugging something into something": [
+     3,
+     0.667
+    ],
+    "Pouring something from something into something": [
+     20,
+     0.85
+    ],
+    "Pretending to break something": [
+     1,
+     1.0
+    ],
+    "Pretending to clap hands": [
+     2,
+     0.0
+    ],
+    "Pretending to cover something": [
+     4,
+     0.25
+    ],
+    "Pretending to iron something": [
+     5,
+     0.8
+    ],
+    "Pretending to open something": [
+     2,
+     0.0
+    ],
+    "Pretending to pour from something into something": [
+     4,
+     0.5
+    ],
+    "Pretending to put something into something": [
+     6,
+     1.0
+    ],
+    "Pretending to tie something": [
+     1,
+     0.0
+    ],
+    "Pretending to unplug something from something": [
+     9,
+     0.556
+    ],
+    "Pulling something": [
+     2,
+     0.5
+    ],
+    "Pushing something": [
+     1,
+     0.0
+    ],
+    "Putting something into something": [
+     37,
+     0.405
+    ],
+    "Putting something on top of something": [
+     48,
+     0.333
+    ],
+    "Rotating something": [
+     13,
+     0.308
+    ],
+    "Showing something to the camera": [
+     32,
+     0.438
+    ],
+    "Shuffling objects": [
+     32,
+     0.25
+    ],
+    "Taking something out of something": [
+     11,
+     0.636
+    ],
+    "Tearing something into pieces": [
+     2,
+     0.5
+    ],
+    "Trying to close something but something prevents that": [
+     10,
+     0.6
+    ],
+    "Turning something off": [
+     11,
+     0.455
+    ],
+    "Turning something on": [
+     18,
+     0.667
+    ],
+    "Tying something": [
+     7,
+     0.714
+    ],
+    "Unfolding something": [
+     6,
+     0.833
+    ],
+    "Unplugging something from something": [
+     5,
+     0.8
+    ],
+    "Working on a computer": [
+     1,
+     0.0
+    ],
+    "Writing or drawing something on a piece of paper": [
+     2,
+     1.0
+    ]
+   },
+   "LoRA": {
+    "Breaking something": [
+     5,
+     1.0
+    ],
+    "Browsing through something": [
+     2,
+     1.0
+    ],
+    "Clapping hands": [
+     2,
+     1.0
+    ],
+    "Clicking something": [
+     3,
+     1.0
+    ],
+    "Closing something": [
+     29,
+     0.621
+    ],
+    "Covering something with something": [
+     23,
+     0.783
+    ],
+    "Crumpling something": [
+     2,
+     1.0
+    ],
+    "Drinking something from something": [
+     4,
+     0.75
+    ],
+    "Dropping something on top of something": [
+     5,
+     0.6
+    ],
+    "Folding something": [
+     3,
+     0.667
+    ],
+    "Hitting something against/with something": [
+     9,
+     1.0
+    ],
+    "Holding something in a state": [
+     30,
+     0.9
+    ],
+    "Indicating a region with the hand": [
+     11,
+     1.0
+    ],
+    "Ironing something": [
+     1,
+     1.0
+    ],
+    "Jingling something": [
+     2,
+     1.0
+    ],
+    "Juggling something": [
+     4,
+     1.0
+    ],
+    "Launching something": [
+     15,
+     0.733
+    ],
+    "Lifting something and placing it back down": [
+     6,
+     0.667
+    ],
+    "Mixing something with something": [
+     26,
+     0.769
+    ],
+    "Moving object(s) around": [
+     47,
+     0.638
+    ],
+    "Opening something": [
+     49,
+     0.776
+    ],
+    "Other": [
+     4,
+     0.75
+    ],
+    "Plugging something into something": [
+     3,
+     0.667
+    ],
+    "Pouring something from something into something": [
+     20,
+     0.9
+    ],
+    "Pretending to break something": [
+     1,
+     1.0
+    ],
+    "Pretending to clap hands": [
+     2,
+     0.5
+    ],
+    "Pretending to cover something": [
+     4,
+     1.0
+    ],
+    "Pretending to iron something": [
+     5,
+     1.0
+    ],
+    "Pretending to open something": [
+     2,
+     1.0
+    ],
+    "Pretending to pour from something into something": [
+     4,
+     0.5
+    ],
+    "Pretending to put something into something": [
+     6,
+     0.833
+    ],
+    "Pretending to tie something": [
+     1,
+     1.0
+    ],
+    "Pretending to unplug something from something": [
+     9,
+     0.667
+    ],
+    "Pulling something": [
+     2,
+     0.5
+    ],
+    "Pushing something": [
+     1,
+     0.0
+    ],
+    "Putting something into something": [
+     37,
+     0.568
+    ],
+    "Putting something on top of something": [
+     48,
+     0.646
+    ],
+    "Rotating something": [
+     13,
+     0.846
+    ],
+    "Showing something to the camera": [
+     32,
+     0.719
+    ],
+    "Shuffling objects": [
+     32,
+     0.969
+    ],
+    "Taking something out of something": [
+     11,
+     0.909
+    ],
+    "Tearing something into pieces": [
+     2,
+     1.0
+    ],
+    "Trying to close something but something prevents that": [
+     10,
+     0.8
+    ],
+    "Turning something off": [
+     11,
+     0.909
+    ],
+    "Turning something on": [
+     18,
+     0.889
+    ],
+    "Tying something": [
+     7,
+     0.714
+    ],
+    "Unfolding something": [
+     6,
+     1.0
+    ],
+    "Unplugging something from something": [
+     5,
+     1.0
+    ],
+    "Working on a computer": [
+     1,
+     1.0
+    ],
+    "Writing or drawing something on a piece of paper": [
+     2,
+     1.0
+    ]
+   },
+   "head": {
+    "Breaking something": [
+     5,
+     1.0
+    ],
+    "Browsing through something": [
+     2,
+     1.0
+    ],
+    "Clapping hands": [
+     2,
+     1.0
+    ],
+    "Clicking something": [
+     3,
+     1.0
+    ],
+    "Closing something": [
+     29,
+     0.69
+    ],
+    "Covering something with something": [
+     23,
+     0.783
+    ],
+    "Crumpling something": [
+     2,
+     1.0
+    ],
+    "Drinking something from something": [
+     4,
+     1.0
+    ],
+    "Dropping something on top of something": [
+     5,
+     0.6
+    ],
+    "Folding something": [
+     3,
+     1.0
+    ],
+    "Hitting something against/with something": [
+     9,
+     1.0
+    ],
+    "Holding something in a state": [
+     30,
+     1.0
+    ],
+    "Indicating a region with the hand": [
+     11,
+     1.0
+    ],
+    "Ironing something": [
+     1,
+     1.0
+    ],
+    "Jingling something": [
+     2,
+     0.5
+    ],
+    "Juggling something": [
+     4,
+     1.0
+    ],
+    "Launching something": [
+     15,
+     0.667
+    ],
+    "Lifting something and placing it back down": [
+     6,
+     1.0
+    ],
+    "Mixing something with something": [
+     26,
+     0.808
+    ],
+    "Moving object(s) around": [
+     47,
+     0.638
+    ],
+    "Opening something": [
+     49,
+     0.816
+    ],
+    "Other": [
+     4,
+     0.75
+    ],
+    "Plugging something into something": [
+     3,
+     1.0
+    ],
+    "Pouring something from something into something": [
+     20,
+     0.9
+    ],
+    "Pretending to break something": [
+     1,
+     1.0
+    ],
+    "Pretending to clap hands": [
+     2,
+     0.5
+    ],
+    "Pretending to cover something": [
+     4,
+     1.0
+    ],
+    "Pretending to iron something": [
+     5,
+     1.0
+    ],
+    "Pretending to open something": [
+     2,
+     1.0
+    ],
+    "Pretending to pour from something into something": [
+     4,
+     0.5
+    ],
+    "Pretending to put something into something": [
+     6,
+     0.833
+    ],
+    "Pretending to tie something": [
+     1,
+     1.0
+    ],
+    "Pretending to unplug something from something": [
+     9,
+     0.556
+    ],
+    "Pulling something": [
+     2,
+     1.0
+    ],
+    "Pushing something": [
+     1,
+     0.0
+    ],
+    "Putting something into something": [
+     37,
+     0.541
+    ],
+    "Putting something on top of something": [
+     48,
+     0.562
+    ],
+    "Rotating something": [
+     13,
+     0.692
+    ],
+    "Showing something to the camera": [
+     32,
+     0.875
+    ],
+    "Shuffling objects": [
+     32,
+     0.938
+    ],
+    "Taking something out of something": [
+     11,
+     0.909
+    ],
+    "Tearing something into pieces": [
+     2,
+     0.5
+    ],
+    "Trying to close something but something prevents that": [
+     10,
+     0.8
+    ],
+    "Turning something off": [
+     11,
+     0.818
+    ],
+    "Turning something on": [
+     18,
+     0.944
+    ],
+    "Tying something": [
+     7,
+     0.714
+    ],
+    "Unfolding something": [
+     6,
+     1.0
+    ],
+    "Unplugging something from something": [
+     5,
+     1.0
+    ],
+    "Working on a computer": [
+     1,
+     1.0
+    ],
+    "Writing or drawing something on a piece of paper": [
+     2,
+     1.0
+    ]
+   }
+  },
+  "by_count": {
+   "zero-shot": {
+    "1": [
+     406,
+     0.52
+    ],
+    "2": [
+     101,
+     0.505
+    ],
+    "3": [
+     39,
+     0.205
+    ],
+    "4": [
+     31,
+     0.452
+    ]
+   },
+   "LoRA": {
+    "1": [
+     406,
+     0.919
+    ],
+    "2": [
+     101,
+     0.366
+    ],
+    "3": [
+     39,
+     0.462
+    ],
+    "4": [
+     31,
+     0.645
+    ]
+   },
+   "head": {
+    "1": [
+     406,
+     0.882
+    ],
+    "2": [
+     101,
+     0.604
+    ],
+    "3": [
+     39,
+     0.487
+    ],
+    "4": [
+     31,
+     0.548
+    ]
+   }
+  },
+  "correlation": {
+   "zero-shot": {
+    "spearman": 0.227,
+    "p": 3.3274221703013595e-08
+   },
+   "LoRA": {
+    "spearman": 0.601,
+    "p": 5.660355357356088e-58
+   },
+   "head": {
+    "spearman": 0.648,
+    "p": 4.462966779260075e-70
+   }
+  },
+  "mcnemar_vs_prior": {
+   "zero-shot": {
+    "model_only": 58,
+    "prior_only": 193,
+    "p": 0.0
+   },
+   "LoRA": {
+    "model_only": 73,
+    "prior_only": 44,
+    "p": 0.009341
+   },
+   "head": {
+    "model_only": 84,
+    "prior_only": 48,
+    "p": 0.002194
+   }
+  }
+ },
+ "review_analyses": {
+  "zero-shot": {
+   "1": {
+    "n": 99,
+    "acc": 0.4848
+   },
+   "2": {
+    "n": 100,
+    "acc": 0.51
+   },
+   "3": {
+    "n": 94,
+    "acc": 0.4468
+   },
+   "4": {
+    "n": 284,
+    "acc": 0.5035
+   }
+  },
+  "readout head": {
+   "1": {
+    "n": 99,
+    "acc": 0.8788
+   },
+   "2": {
+    "n": 100,
+    "acc": 0.83
+   },
+   "3": {
+    "n": 94,
+    "acc": 0.766
+   },
+   "4": {
+    "n": 284,
+    "acc": 0.75
+   }
+  },
+  "per_action_mode_baseline": {
+   "n": 581,
+   "accuracy": 0.7229,
+   "note": "predicts the most common count per action from train"
+  }
+ },
+ "head_ablation": {
+  "linear": {
+   "overall": 0.74,
+   "overall_ci": [
+    0.703,
+    0.774
+   ],
+   "once": 0.8079,
+   "repeated": 0.5789,
+   "repeated_ci": [
+    0.504,
+    0.65
+   ]
+  },
+  "mlp": {
+   "overall": 0.7886,
+   "overall_ci": [
+    0.753,
+    0.82
+   ],
+   "once": 0.8818,
+   "repeated": 0.5673,
+   "repeated_ci": [
+    0.492,
+    0.639
+   ]
+  },
+  "lora_text": {
+   "repeated": 0.4386,
+   "repeated_ci": [
+    0.366,
+    0.514
+   ]
+  },
+  "zero_shot": {
+   "repeated": 0.4269,
+   "repeated_ci": [
+    0.355,
+    0.502
+   ]
+  }
+ }
+}

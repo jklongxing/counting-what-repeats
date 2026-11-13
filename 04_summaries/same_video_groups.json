@@ -1,0 +1,51 @@
+{
+ "size_distribution": {
+  "2": 74,
+  "3": 7,
+  "4": 1
+ },
+ "videos": 82,
+ "by_k": {
+  "2": {
+   "videos": 74,
+   "questions": 148,
+   "zero-shot": 0.1757,
+   "LoRA": 0.3514,
+   "readout": 0.4189,
+   "prior": 0.0946,
+   "always1": 0.0
+  },
+  "3": {
+   "videos": 7,
+   "questions": 21,
+   "zero-shot": 0.0,
+   "LoRA": 0.0,
+   "readout": 0.0,
+   "prior": 0.0,
+   "always1": 0.0
+  },
+  "4": {
+   "videos": 1,
+   "questions": 4,
+   "zero-shot": 0.0,
+   "LoRA": 0.0,
+   "readout": 0.0,
+   "prior": 0.0,
+   "always1": 0.0
+  }
+ },
+ "all4": {
+  "videos": 1,
+  "zero-shot": 0.0,
+  "LoRA": 0.0,
+  "readout": 0.0,
+  "prior": 0.0
+ },
+ "all3": {
+  "videos": 7,
+  "zero-shot": 0.0,
+  "LoRA": 0.0,
+  "readout": 0.0,
+  "prior": 0.0
+ }
+}

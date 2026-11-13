@@ -1,0 +1,17 @@
+{
+  "model": "model",
+  "split": [
+    "test"
+  ],
+  "frames": 32,
+  "units": 577,
+  "parsed": 577,
+  "exact": 236,
+  "exact_rate": 0.409,
+  "mae": 0.9099,
+  "binary_acc": 0.6759,
+  "pred_on_once_mean": 0.958,
+  "pred_on_repeated_mean": 1.345,
+  "always_one_acc": 0.7036,
+  "seconds": 1723.9
+}

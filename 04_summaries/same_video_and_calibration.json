@@ -1,0 +1,132 @@
+{
+ "same_video": {
+  "n_videos_with_pairs": 82,
+  "n_pairs": 272,
+  "methods": {
+   "zero-shot": {
+    "pairs": 272,
+    "both_correct": 69,
+    "both_rate": 0.2537,
+    "both_ci": [
+     0.206,
+     0.309
+    ],
+    "order_correct": 131,
+    "order_rate": 0.4816,
+    "order_ci": [
+     0.423,
+     0.541
+    ]
+   },
+   "LoRA": {
+    "pairs": 272,
+    "both_correct": 78,
+    "both_rate": 0.2868,
+    "both_ci": [
+     0.236,
+     0.343
+    ],
+    "order_correct": 109,
+    "order_rate": 0.4007,
+    "order_ci": [
+     0.344,
+     0.46
+    ]
+   },
+   "readout": {
+    "pairs": 272,
+    "both_correct": 100,
+    "both_rate": 0.3676,
+    "both_ci": [
+     0.313,
+     0.426
+    ],
+    "order_correct": 134,
+    "order_rate": 0.4926,
+    "order_ci": [
+     0.434,
+     0.552
+    ]
+   },
+   "per-action prior": {
+    "pairs": 272,
+    "both_correct": 49,
+    "both_rate": 0.1801,
+    "both_ci": [
+     0.139,
+     0.23
+    ],
+    "order_correct": 67,
+    "order_rate": 0.2463,
+    "order_ci": [
+     0.199,
+     0.301
+    ]
+   },
+   "always 1": {
+    "pairs": 272,
+    "both_correct": 0,
+    "both_rate": 0.0,
+    "both_ci": [
+     0.0,
+     0.014
+    ],
+    "order_correct": 0,
+    "order_rate": 0.0,
+    "order_ci": [
+     0.0,
+     0.014
+    ]
+   }
+  }
+ },
+ "calibration": {
+  "lora_dev": {
+   "once": 0.9406,
+   "repeated": 0.4138,
+   "overall": 0.782
+  },
+  "lora_test": {
+   "once": 0.9187,
+   "repeated": 0.4386,
+   "overall": 0.7764
+  },
+  "head_dev": {
+   "once": 0.9059,
+   "repeated": 0.546,
+   "overall": 0.7976
+  },
+  "head_test": {
+   "once": 0.8818,
+   "repeated": 0.5673,
+   "overall": 0.7886
+  },
+  "target_once": 0.9059,
+  "shift": {
+   "chosen": "0",
+   "dev": {
+    "once": 0.9406,
+    "repeated": 0.4138,
+    "overall": 0.782
+   },
+   "test": {
+    "once": 0.9187,
+    "repeated": 0.4386,
+    "overall": 0.7764
+   },
+   "gap": 0.0347
+  },
+  "histogram": {
+   "dev": {
+    "once": 0.9406,
+    "repeated": 0.4138,
+    "overall": 0.782
+   },
+   "test": {
+    "once": 0.9187,
+    "repeated": 0.4386,
+    "overall": 0.7764
+   }
+  }
+ }
+}

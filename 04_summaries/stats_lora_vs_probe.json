@@ -1,0 +1,46 @@
+{
+  "a": "/home/jiquan/video-state-evidence/repetition_readout_v1/runs/test_lora_v1_32f.jsonl",
+  "b": "/home/jiquan/video-state-evidence/repetition_readout_v1/runs/probeL_s0_test.jsonl",
+  "all": {
+    "group": "all",
+    "n": 121,
+    "acc_a": 0.6612,
+    "acc_b": 0.6777,
+    "diff": 0.0165,
+    "ci95": [
+      -0.0579,
+      0.0909
+    ],
+    "mcnemar_p": 0.8238,
+    "only_a": 9,
+    "only_b": 11
+  },
+  "once": {
+    "group": "once",
+    "n": 60,
+    "acc_a": 0.9167,
+    "acc_b": 0.7667,
+    "diff": -0.15,
+    "ci95": [
+      -0.25,
+      -0.0667
+    ],
+    "mcnemar_p": 0.00391,
+    "only_a": 9,
+    "only_b": 0
+  },
+  "repeated": {
+    "group": "repeated",
+    "n": 61,
+    "acc_a": 0.4098,
+    "acc_b": 0.5902,
+    "diff": 0.1803,
+    "ci95": [
+      0.082,
+      0.2787
+    ],
+    "mcnemar_p": 0.00098,
+    "only_a": 0,
+    "only_b": 11
+  }
+}

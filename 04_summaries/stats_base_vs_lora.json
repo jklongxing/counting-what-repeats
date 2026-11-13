@@ -1,0 +1,46 @@
+{
+  "a": "/home/jiquan/video-state-evidence/repetition_readout_v1/runs/test_qwen3vl_32f.jsonl",
+  "b": "/home/jiquan/video-state-evidence/repetition_readout_v1/runs/test_lora_v1_32f.jsonl",
+  "all": {
+    "group": "all",
+    "n": 121,
+    "acc_a": 0.5124,
+    "acc_b": 0.6612,
+    "diff": 0.1488,
+    "ci95": [
+      0.0496,
+      0.2479
+    ],
+    "mcnemar_p": 0.0051,
+    "only_a": 10,
+    "only_b": 28
+  },
+  "once": {
+    "group": "once",
+    "n": 60,
+    "acc_a": 0.5833,
+    "acc_b": 0.9167,
+    "diff": 0.3333,
+    "ci95": [
+      0.2167,
+      0.4667
+    ],
+    "mcnemar_p": 1e-05,
+    "only_a": 1,
+    "only_b": 21
+  },
+  "repeated": {
+    "group": "repeated",
+    "n": 61,
+    "acc_a": 0.4426,
+    "acc_b": 0.4098,
+    "diff": -0.0328,
+    "ci95": [
+      -0.1639,
+      0.0984
+    ],
+    "mcnemar_p": 0.80362,
+    "only_a": 9,
+    "only_b": 7
+  }
+}

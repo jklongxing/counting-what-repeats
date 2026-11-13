@@ -1,0 +1,10 @@
+{
+  "name": "v3_dev_internvl25",
+  "units": 578,
+  "parsed": 496,
+  "exact": 0.2722,
+  "once": 0.1371,
+  "repeated": 0.5959,
+  "binary": 0.379,
+  "mae": 0.8085
+}

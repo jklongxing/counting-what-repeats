@@ -1,0 +1,43 @@
+{
+  "zero-shot": {
+    "1": {
+      "n": 99,
+      "acc": 0.4848
+    },
+    "2": {
+      "n": 100,
+      "acc": 0.51
+    },
+    "3": {
+      "n": 94,
+      "acc": 0.4468
+    },
+    "4": {
+      "n": 284,
+      "acc": 0.5035
+    }
+  },
+  "readout head": {
+    "1": {
+      "n": 99,
+      "acc": 0.8788
+    },
+    "2": {
+      "n": 100,
+      "acc": 0.83
+    },
+    "3": {
+      "n": 94,
+      "acc": 0.766
+    },
+    "4": {
+      "n": 284,
+      "acc": 0.75
+    }
+  },
+  "per_action_mode_baseline": {
+    "n": 581,
+    "accuracy": 0.7229,
+    "note": "predicts the most common count per action from train"
+  }
+}

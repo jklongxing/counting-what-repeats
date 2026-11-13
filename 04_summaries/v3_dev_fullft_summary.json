@@ -1,0 +1,17 @@
+{
+  "model": "lora_full_full",
+  "split": [
+    "dev"
+  ],
+  "frames": 32,
+  "units": 578,
+  "parsed": 578,
+  "exact": 453,
+  "exact_rate": 0.7837,
+  "mae": 0.2993,
+  "binary_acc": 0.8183,
+  "pred_on_once_mean": 1.03,
+  "pred_on_repeated_mean": 1.764,
+  "always_one_acc": 0.699,
+  "seconds": 1285.9
+}

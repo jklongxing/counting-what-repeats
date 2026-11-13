@@ -1,0 +1,54 @@
+{
+ "zero-shot Qwen2.5": [
+  49.51,
+  22.220000000000002
+ ],
+ "zero-shot Qwen3": [
+  51.970000000000006,
+  42.69
+ ],
+ "zero-shot InternVL3.5": [
+  66.75,
+  39.18
+ ],
+ "per-action prior": [
+  95.81,
+  17.54
+ ],
+ "LoRA": [
+  91.86999999999999,
+  43.86
+ ],
+ "full fine-tuning": [
+  98.28,
+  32.16
+ ],
+ "class-weighted LoRA": [
+  84.98,
+  53.22
+ ],
+ "MLP readout": [
+  88.18,
+  56.730000000000004
+ ],
+ "logistic readout": [
+  80.78999999999999,
+  57.89
+ ],
+ "per-class digit bias": [
+  93.8423645320197,
+  45.02923976608187
+ ],
+ "dev-matched repetition bias": [
+  86.45320197044335,
+  49.707602339181285
+ ],
+ "action-rule relabelling (test single 88.2, repeated 50.3)": [
+  88.18,
+  50.3
+ ],
+ "score-space readout (8 digits)": [
+  89.41,
+  47.95
+ ]
+}

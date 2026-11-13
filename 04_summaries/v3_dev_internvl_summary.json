@@ -1,0 +1,14 @@
+{
+  "model": "InternVL3.5-8B",
+  "split": [
+    "dev"
+  ],
+  "units": 578,
+  "parsed": 578,
+  "exact": 0.519,
+  "once": 0.6139,
+  "repeated": 0.2989,
+  "binary": 0.6332,
+  "mae": 0.8737,
+  "seconds": 2590.9
+}

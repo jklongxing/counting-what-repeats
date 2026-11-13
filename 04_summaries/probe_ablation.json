@@ -1,0 +1,281 @@
+{
+  "data_ablation": [
+    {
+      "train_units": 100,
+      "exact": 0.6066,
+      "repeated": 0.3567
+    },
+    {
+      "train_units": 300,
+      "exact": 0.7244,
+      "repeated": 0.4035
+    },
+    {
+      "train_units": 600,
+      "exact": 0.7539,
+      "repeated": 0.5088
+    },
+    {
+      "train_units": 1200,
+      "exact": 0.7071,
+      "repeated": 0.5906
+    },
+    {
+      "train_units": 2555,
+      "exact": 0.7868,
+      "repeated": 0.538
+    }
+  ],
+  "per_action": [
+    {
+      "action": "Opening something",
+      "n": 49,
+      "exact_4way": 0.8163
+    },
+    {
+      "action": "Putting something on top of something",
+      "n": 48,
+      "exact_4way": 0.5625
+    },
+    {
+      "action": "Moving object(s) around",
+      "n": 47,
+      "exact_4way": 0.6383
+    },
+    {
+      "action": "Putting something into something",
+      "n": 37,
+      "exact_4way": 0.5405
+    },
+    {
+      "action": "Shuffling objects",
+      "n": 32,
+      "exact_4way": 0.9375
+    },
+    {
+      "action": "Showing something to the camera",
+      "n": 32,
+      "exact_4way": 0.875
+    },
+    {
+      "action": "Holding something in a state",
+      "n": 30,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Closing something",
+      "n": 29,
+      "exact_4way": 0.6897
+    },
+    {
+      "action": "Mixing something with something",
+      "n": 26,
+      "exact_4way": 0.8077
+    },
+    {
+      "action": "Covering something with something",
+      "n": 23,
+      "exact_4way": 0.7826
+    },
+    {
+      "action": "Pouring something from something into something",
+      "n": 20,
+      "exact_4way": 0.9
+    },
+    {
+      "action": "Turning something on",
+      "n": 18,
+      "exact_4way": 0.9444
+    },
+    {
+      "action": "Launching something",
+      "n": 15,
+      "exact_4way": 0.6667
+    },
+    {
+      "action": "Rotating something",
+      "n": 13,
+      "exact_4way": 0.6923
+    },
+    {
+      "action": "Turning something off",
+      "n": 11,
+      "exact_4way": 0.8182
+    },
+    {
+      "action": "Indicating a region with the hand",
+      "n": 11,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Taking something out of something",
+      "n": 11,
+      "exact_4way": 0.9091
+    },
+    {
+      "action": "Trying to close something but something prevents that",
+      "n": 10,
+      "exact_4way": 0.8
+    },
+    {
+      "action": "Hitting something against/with something",
+      "n": 9,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to unplug something from something",
+      "n": 9,
+      "exact_4way": 0.5556
+    },
+    {
+      "action": "Tying something",
+      "n": 7,
+      "exact_4way": 0.7143
+    },
+    {
+      "action": "Unfolding something",
+      "n": 6,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to put something into something",
+      "n": 6,
+      "exact_4way": 0.8333
+    },
+    {
+      "action": "Lifting something and placing it back down",
+      "n": 6,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to iron something",
+      "n": 5,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Dropping something on top of something",
+      "n": 5,
+      "exact_4way": 0.6
+    },
+    {
+      "action": "Unplugging something from something",
+      "n": 5,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Breaking something",
+      "n": 5,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to pour from something into something",
+      "n": 4,
+      "exact_4way": 0.5
+    },
+    {
+      "action": "Other",
+      "n": 4,
+      "exact_4way": 0.75
+    },
+    {
+      "action": "Pretending to cover something",
+      "n": 4,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Drinking something from something",
+      "n": 4,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Juggling something",
+      "n": 4,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Plugging something into something",
+      "n": 3,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Folding something",
+      "n": 3,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Clicking something",
+      "n": 3,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Jingling something",
+      "n": 2,
+      "exact_4way": 0.5
+    },
+    {
+      "action": "Crumpling something",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pulling something",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to clap hands",
+      "n": 2,
+      "exact_4way": 0.5
+    },
+    {
+      "action": "Writing or drawing something on a piece of paper",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Tearing something into pieces",
+      "n": 2,
+      "exact_4way": 0.5
+    },
+    {
+      "action": "Pretending to open something",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Browsing through something",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Clapping hands",
+      "n": 2,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Ironing something",
+      "n": 1,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pushing something",
+      "n": 1,
+      "exact_4way": 0.0
+    },
+    {
+      "action": "Pretending to tie something",
+      "n": 1,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Working on a computer",
+      "n": 1,
+      "exact_4way": 1.0
+    },
+    {
+      "action": "Pretending to break something",
+      "n": 1,
+      "exact_4way": 1.0
+    }
+  ]
+}

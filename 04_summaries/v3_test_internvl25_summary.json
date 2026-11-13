@@ -1,0 +1,10 @@
+{
+  "name": "v3_test_internvl25",
+  "units": 577,
+  "parsed": 487,
+  "exact": 0.2464,
+  "once": 0.1272,
+  "repeated": 0.539,
+  "binary": 0.3655,
+  "mae": 0.8604
+}

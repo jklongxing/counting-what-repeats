@@ -1,0 +1,66 @@
+{
+ "n_videos_with_pairs": 53,
+ "n_pairs": 59,
+ "zero-shot": {
+  "both": 9,
+  "rate": 0.1525,
+  "ci": [
+   0.082,
+   0.265
+  ]
+ },
+ "LoRA": {
+  "both": 10,
+  "rate": 0.1695,
+  "ci": [
+   0.095,
+   0.285
+  ]
+ },
+ "readout": {
+  "both": 14,
+  "rate": 0.2373,
+  "ci": [
+   0.147,
+   0.36
+  ]
+ },
+ "prior": {
+  "both": 2,
+  "rate": 0.0339,
+  "ci": [
+   0.009,
+   0.115
+  ]
+ },
+ "always1": 0,
+ "tests": {
+  "readout_minus_lora": {
+   "delta": 0.0678,
+   "ci": [
+    -0.0702,
+    0.2097
+   ],
+   "p": "0.4360",
+   "videos": 53
+  },
+  "readout_minus_prior": {
+   "delta": 0.2034,
+   "ci": [
+    0.0847,
+    0.3281
+   ],
+   "p": "0.0010",
+   "videos": 53
+  },
+  "lora_minus_prior": {
+   "delta": 0.1356,
+   "ci": [
+    0.0175,
+    0.25
+   ],
+   "p": "0.0320",
+   "videos": 53
+  }
+ }
+}

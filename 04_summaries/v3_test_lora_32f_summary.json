@@ -1,0 +1,17 @@
+{
+  "model": "Qwen3-VL-8B-Instruct",
+  "split": [
+    "test"
+  ],
+  "frames": 32,
+  "units": 577,
+  "parsed": 577,
+  "exact": 437,
+  "exact_rate": 0.7574,
+  "mae": 0.3258,
+  "binary_acc": 0.8198,
+  "pred_on_once_mean": 1.106,
+  "pred_on_repeated_mean": 2.287,
+  "always_one_acc": 0.7036,
+  "seconds": 1405.9
+}
