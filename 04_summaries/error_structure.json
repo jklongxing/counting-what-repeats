@@ -1,0 +1,697 @@
+{
+  "per_action": {
+    "zero-shot": {
+      "Breaking something": [
+        5,
+        1.0
+      ],
+      "Browsing through something": [
+        2,
+        0.5
+      ],
+      "Clapping hands": [
+        2,
+        0.5
+      ],
+      "Clicking something": [
+        3,
+        0.0
+      ],
+      "Closing something": [
+        29,
+        0.552
+      ],
+      "Covering something with something": [
+        23,
+        0.478
+      ],
+      "Crumpling something": [
+        2,
+        0.5
+      ],
+      "Drinking something from something": [
+        4,
+        0.0
+      ],
+      "Dropping something on top of something": [
+        5,
+        0.6
+      ],
+      "Folding something": [
+        3,
+        0.667
+      ],
+      "Hitting something against/with something": [
+        9,
+        0.333
+      ],
+      "Holding something in a state": [
+        30,
+        0.833
+      ],
+      "Indicating a region with the hand": [
+        11,
+        0.364
+      ],
+      "Ironing something": [
+        1,
+        0.0
+      ],
+      "Jingling something": [
+        2,
+        1.0
+      ],
+      "Juggling something": [
+        4,
+        0.0
+      ],
+      "Launching something": [
+        15,
+        0.2
+      ],
+      "Lifting something and placing it back down": [
+        6,
+        0.167
+      ],
+      "Mixing something with something": [
+        26,
+        0.769
+      ],
+      "Moving object(s) around": [
+        47,
+        0.17
+      ],
+      "Opening something": [
+        49,
+        0.653
+      ],
+      "Other": [
+        4,
+        0.75
+      ],
+      "Plugging something into something": [
+        3,
+        0.667
+      ],
+      "Pouring something from something into something": [
+        20,
+        0.85
+      ],
+      "Pretending to break something": [
+        1,
+        1.0
+      ],
+      "Pretending to clap hands": [
+        2,
+        0.0
+      ],
+      "Pretending to cover something": [
+        4,
+        0.25
+      ],
+      "Pretending to iron something": [
+        5,
+        0.8
+      ],
+      "Pretending to open something": [
+        2,
+        0.0
+      ],
+      "Pretending to pour from something into something": [
+        4,
+        0.5
+      ],
+      "Pretending to put something into something": [
+        6,
+        1.0
+      ],
+      "Pretending to tie something": [
+        1,
+        0.0
+      ],
+      "Pretending to unplug something from something": [
+        9,
+        0.556
+      ],
+      "Pulling something": [
+        2,
+        0.5
+      ],
+      "Pushing something": [
+        1,
+        0.0
+      ],
+      "Putting something into something": [
+        37,
+        0.405
+      ],
+      "Putting something on top of something": [
+        48,
+        0.333
+      ],
+      "Rotating something": [
+        13,
+        0.308
+      ],
+      "Showing something to the camera": [
+        32,
+        0.438
+      ],
+      "Shuffling objects": [
+        32,
+        0.25
+      ],
+      "Taking something out of something": [
+        11,
+        0.636
+      ],
+      "Tearing something into pieces": [
+        2,
+        0.5
+      ],
+      "Trying to close something but something prevents that": [
+        10,
+        0.6
+      ],
+      "Turning something off": [
+        11,
+        0.455
+      ],
+      "Turning something on": [
+        18,
+        0.667
+      ],
+      "Tying something": [
+        7,
+        0.714
+      ],
+      "Unfolding something": [
+        6,
+        0.833
+      ],
+      "Unplugging something from something": [
+        5,
+        0.8
+      ],
+      "Working on a computer": [
+        1,
+        0.0
+      ],
+      "Writing or drawing something on a piece of paper": [
+        2,
+        1.0
+      ]
+    },
+    "LoRA": {
+      "Breaking something": [
+        5,
+        1.0
+      ],
+      "Browsing through something": [
+        2,
+        1.0
+      ],
+      "Clapping hands": [
+        2,
+        1.0
+      ],
+      "Clicking something": [
+        3,
+        1.0
+      ],
+      "Closing something": [
+        29,
+        0.621
+      ],
+      "Covering something with something": [
+        23,
+        0.783
+      ],
+      "Crumpling something": [
+        2,
+        1.0
+      ],
+      "Drinking something from something": [
+        4,
+        0.75
+      ],
+      "Dropping something on top of something": [
+        5,
+        0.6
+      ],
+      "Folding something": [
+        3,
+        0.667
+      ],
+      "Hitting something against/with something": [
+        9,
+        1.0
+      ],
+      "Holding something in a state": [
+        30,
+        0.9
+      ],
+      "Indicating a region with the hand": [
+        11,
+        1.0
+      ],
+      "Ironing something": [
+        1,
+        1.0
+      ],
+      "Jingling something": [
+        2,
+        1.0
+      ],
+      "Juggling something": [
+        4,
+        1.0
+      ],
+      "Launching something": [
+        15,
+        0.733
+      ],
+      "Lifting something and placing it back down": [
+        6,
+        0.667
+      ],
+      "Mixing something with something": [
+        26,
+        0.769
+      ],
+      "Moving object(s) around": [
+        47,
+        0.638
+      ],
+      "Opening something": [
+        49,
+        0.776
+      ],
+      "Other": [
+        4,
+        0.75
+      ],
+      "Plugging something into something": [
+        3,
+        0.667
+      ],
+      "Pouring something from something into something": [
+        20,
+        0.9
+      ],
+      "Pretending to break something": [
+        1,
+        1.0
+      ],
+      "Pretending to clap hands": [
+        2,
+        0.5
+      ],
+      "Pretending to cover something": [
+        4,
+        1.0
+      ],
+      "Pretending to iron something": [
+        5,
+        1.0
+      ],
+      "Pretending to open something": [
+        2,
+        1.0
+      ],
+      "Pretending to pour from something into something": [
+        4,
+        0.5
+      ],
+      "Pretending to put something into something": [
+        6,
+        0.833
+      ],
+      "Pretending to tie something": [
+        1,
+        1.0
+      ],
+      "Pretending to unplug something from something": [
+        9,
+        0.667
+      ],
+      "Pulling something": [
+        2,
+        0.5
+      ],
+      "Pushing something": [
+        1,
+        0.0
+      ],
+      "Putting something into something": [
+        37,
+        0.568
+      ],
+      "Putting something on top of something": [
+        48,
+        0.646
+      ],
+      "Rotating something": [
+        13,
+        0.846
+      ],
+      "Showing something to the camera": [
+        32,
+        0.719
+      ],
+      "Shuffling objects": [
+        32,
+        0.969
+      ],
+      "Taking something out of something": [
+        11,
+        0.909
+      ],
+      "Tearing something into pieces": [
+        2,
+        1.0
+      ],
+      "Trying to close something but something prevents that": [
+        10,
+        0.8
+      ],
+      "Turning something off": [
+        11,
+        0.909
+      ],
+      "Turning something on": [
+        18,
+        0.889
+      ],
+      "Tying something": [
+        7,
+        0.714
+      ],
+      "Unfolding something": [
+        6,
+        1.0
+      ],
+      "Unplugging something from something": [
+        5,
+        1.0
+      ],
+      "Working on a computer": [
+        1,
+        1.0
+      ],
+      "Writing or drawing something on a piece of paper": [
+        2,
+        1.0
+      ]
+    },
+    "head": {
+      "Breaking something": [
+        5,
+        1.0
+      ],
+      "Browsing through something": [
+        2,
+        1.0
+      ],
+      "Clapping hands": [
+        2,
+        1.0
+      ],
+      "Clicking something": [
+        3,
+        1.0
+      ],
+      "Closing something": [
+        29,
+        0.69
+      ],
+      "Covering something with something": [
+        23,
+        0.783
+      ],
+      "Crumpling something": [
+        2,
+        1.0
+      ],
+      "Drinking something from something": [
+        4,
+        1.0
+      ],
+      "Dropping something on top of something": [
+        5,
+        0.6
+      ],
+      "Folding something": [
+        3,
+        1.0
+      ],
+      "Hitting something against/with something": [
+        9,
+        1.0
+      ],
+      "Holding something in a state": [
+        30,
+        1.0
+      ],
+      "Indicating a region with the hand": [
+        11,
+        1.0
+      ],
+      "Ironing something": [
+        1,
+        1.0
+      ],
+      "Jingling something": [
+        2,
+        0.5
+      ],
+      "Juggling something": [
+        4,
+        1.0
+      ],
+      "Launching something": [
+        15,
+        0.667
+      ],
+      "Lifting something and placing it back down": [
+        6,
+        1.0
+      ],
+      "Mixing something with something": [
+        26,
+        0.808
+      ],
+      "Moving object(s) around": [
+        47,
+        0.638
+      ],
+      "Opening something": [
+        49,
+        0.816
+      ],
+      "Other": [
+        4,
+        0.75
+      ],
+      "Plugging something into something": [
+        3,
+        1.0
+      ],
+      "Pouring something from something into something": [
+        20,
+        0.9
+      ],
+      "Pretending to break something": [
+        1,
+        1.0
+      ],
+      "Pretending to clap hands": [
+        2,
+        0.5
+      ],
+      "Pretending to cover something": [
+        4,
+        1.0
+      ],
+      "Pretending to iron something": [
+        5,
+        1.0
+      ],
+      "Pretending to open something": [
+        2,
+        1.0
+      ],
+      "Pretending to pour from something into something": [
+        4,
+        0.5
+      ],
+      "Pretending to put something into something": [
+        6,
+        0.833
+      ],
+      "Pretending to tie something": [
+        1,
+        1.0
+      ],
+      "Pretending to unplug something from something": [
+        9,
+        0.556
+      ],
+      "Pulling something": [
+        2,
+        1.0
+      ],
+      "Pushing something": [
+        1,
+        0.0
+      ],
+      "Putting something into something": [
+        37,
+        0.541
+      ],
+      "Putting something on top of something": [
+        48,
+        0.562
+      ],
+      "Rotating something": [
+        13,
+        0.692
+      ],
+      "Showing something to the camera": [
+        32,
+        0.875
+      ],
+      "Shuffling objects": [
+        32,
+        0.938
+      ],
+      "Taking something out of something": [
+        11,
+        0.909
+      ],
+      "Tearing something into pieces": [
+        2,
+        0.5
+      ],
+      "Trying to close something but something prevents that": [
+        10,
+        0.8
+      ],
+      "Turning something off": [
+        11,
+        0.818
+      ],
+      "Turning something on": [
+        18,
+        0.944
+      ],
+      "Tying something": [
+        7,
+        0.714
+      ],
+      "Unfolding something": [
+        6,
+        1.0
+      ],
+      "Unplugging something from something": [
+        5,
+        1.0
+      ],
+      "Working on a computer": [
+        1,
+        1.0
+      ],
+      "Writing or drawing something on a piece of paper": [
+        2,
+        1.0
+      ]
+    }
+  },
+  "by_count": {
+    "zero-shot": {
+      "1": [
+        406,
+        0.52
+      ],
+      "2": [
+        101,
+        0.505
+      ],
+      "3": [
+        39,
+        0.205
+      ],
+      "4": [
+        31,
+        0.452
+      ]
+    },
+    "LoRA": {
+      "1": [
+        406,
+        0.919
+      ],
+      "2": [
+        101,
+        0.366
+      ],
+      "3": [
+        39,
+        0.462
+      ],
+      "4": [
+        31,
+        0.645
+      ]
+    },
+    "head": {
+      "1": [
+        406,
+        0.882
+      ],
+      "2": [
+        101,
+        0.604
+      ],
+      "3": [
+        39,
+        0.487
+      ],
+      "4": [
+        31,
+        0.548
+      ]
+    }
+  },
+  "correlation": {
+    "zero-shot": {
+      "spearman": 0.227,
+      "p": 3.3274221703013595e-08
+    },
+    "LoRA": {
+      "spearman": 0.601,
+      "p": 5.660355357356088e-58
+    },
+    "head": {
+      "spearman": 0.648,
+      "p": 4.462966779260075e-70
+    }
+  },
+  "mcnemar_vs_prior": {
+    "zero-shot": {
+      "model_only": 58,
+      "prior_only": 193,
+      "p": 0.0
+    },
+    "LoRA": {
+      "model_only": 73,
+      "prior_only": 44,
+      "p": 0.009341
+    },
+    "head": {
+      "model_only": 84,
+      "prior_only": 48,
+      "p": 0.002194
+    }
+  }
+}

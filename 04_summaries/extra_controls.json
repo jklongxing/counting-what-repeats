@@ -1,0 +1,79 @@
+{
+ "same_question": {
+  "pairs": 130,
+  "actions": 25,
+  "zero-shot": {
+   "both": 28,
+   "rate": 0.2154,
+   "ci": [
+    0.153,
+    0.294
+   ]
+  },
+  "LoRA": {
+   "both": 39,
+   "rate": 0.3,
+   "ci": [
+    0.228,
+    0.384
+   ]
+  },
+  "readout": {
+   "both": 53,
+   "rate": 0.4077,
+   "ci": [
+    0.327,
+    0.494
+   ]
+  },
+  "tests": {
+   "readout_minus_lora": {
+    "delta": 0.1077,
+    "ci": [
+     0.0231,
+     0.2
+    ],
+    "p": "0.0180"
+   },
+   "readout_minus_zeroshot": {
+    "delta": 0.1923,
+    "ci": [
+     0.1,
+     0.2769
+    ],
+    "p": "< 0.0010"
+   }
+  }
+ },
+ "score_head": {
+  "train": 2555,
+  "test": {
+   "n": 577,
+   "score_head": {
+    "overall": 0.7712,
+    "single": 0.8941,
+    "repeated": 0.4795
+   },
+   "hidden_readout": {
+    "overall": 0.7886,
+    "single": 0.8818,
+    "repeated": 0.5673
+   },
+   "score_head_sd": 0.0079
+  },
+  "val": {
+   "n": 959,
+   "score_head": {
+    "overall": 0.635,
+    "single": 0.9104,
+    "repeated": 0.3591
+   },
+   "hidden_readout": {
+    "overall": 0.6528,
+    "single": 0.8625,
+    "repeated": 0.4426
+   },
+   "score_head_sd": 0.005
+  }
+ }
+}

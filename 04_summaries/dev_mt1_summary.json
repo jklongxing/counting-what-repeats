@@ -1,0 +1,13 @@
+{
+  "adapter": "mt1",
+  "split": [
+    "dev"
+  ],
+  "units": 122,
+  "exact": 0.4836,
+  "once": 0.9833,
+  "repeated": 0.0,
+  "binary": 0.4836,
+  "mae": 0.7295,
+  "seconds": 290.0
+}

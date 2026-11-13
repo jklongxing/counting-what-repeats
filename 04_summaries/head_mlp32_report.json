@@ -1,0 +1,17 @@
+{
+  "hidden": "hidden3_Qwen3-VL-8B-Instruct_32f.pt",
+  "binary": {
+    "alpha": 0.001,
+    "hidden": 64,
+    "inner_val_accuracy": 0.7117,
+    "dev_accuracy": 0.7049,
+    "dev_macro_f1": 0.7042
+  },
+  "fourway": {
+    "alpha": 0.001,
+    "hidden": 256,
+    "inner_val_accuracy": 0.6486,
+    "dev_accuracy": 0.5902,
+    "dev_macro_f1": 0.515
+  }
+}

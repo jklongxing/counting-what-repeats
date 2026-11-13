@@ -1,0 +1,29 @@
+{
+ "train": 1290,
+ "val": 476,
+ "val_sources": 438,
+ "dropped_train_clips": [
+  "s5stimPX3h0_cut1",
+  "s5stimPX3h0_cut0"
+ ],
+ "train_sources": 1206,
+ "source_overlap": 0,
+ "train_dist": {
+  "2": 537,
+  "3": 361,
+  "4": 392
+ },
+ "val_dist": {
+  "2": 230,
+  "3": 162,
+  "4": 84
+ },
+ "constant2_baseline": 0.4832,
+ "seed0": 0.5672,
+ "seed1": 0.5735,
+ "seed2": 0.5462,
+ "seed3": 0.5672,
+ "seed4": 0.5693,
+ "mean": 0.5647,
+ "sd": 0.0095
+}

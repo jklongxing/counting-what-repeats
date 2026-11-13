@@ -1,0 +1,12 @@
+{
+ "train_units": 1292,
+ "train_videos": 1292,
+ "val_units": 476,
+ "val_videos": 476,
+ "overlap_videos": [
+  "s5stimPX3h0_cut0"
+ ],
+ "overlap_units": [
+  "s5stimPX3h0_cut0|countix"
+ ]
+}

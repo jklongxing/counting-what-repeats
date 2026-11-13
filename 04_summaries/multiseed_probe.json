@@ -1,0 +1,26 @@
+[
+  {
+    "adapter": "seed0",
+    "head_overall": 0.7917,
+    "head_overall_sd": 0.0158,
+    "head_once": 0.8926,
+    "head_repeated": 0.552,
+    "head_repeated_sd": 0.03
+  },
+  {
+    "adapter": "seed7",
+    "head_overall": 0.8007,
+    "head_overall_sd": 0.0111,
+    "head_once": 0.9044,
+    "head_repeated": 0.5544,
+    "head_repeated_sd": 0.0113
+  },
+  {
+    "adapter": "seed8",
+    "head_overall": 0.7847,
+    "head_overall_sd": 0.0133,
+    "head_once": 0.8941,
+    "head_repeated": 0.5251,
+    "head_repeated_sd": 0.0657
+  }
+]

@@ -1,0 +1,91 @@
+{
+ "units": 3710,
+ "risky": 10,
+ "by_split": {
+  "train": 8,
+  "dev": 1,
+  "test": 1
+ },
+ "detail": [
+  {
+   "unit_id": "video_11465|Tearing something into pieces",
+   "split": "train",
+   "action": "Tearing something into pieces",
+   "events_in_video": 4,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_2221|Putting something into something",
+   "split": "train",
+   "action": "Putting something into something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_3217|Putting something into something",
+   "split": "dev",
+   "action": "Putting something into something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_3346|Pouring something from something into something",
+   "split": "train",
+   "action": "Pouring something from something into something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_3803|Putting something into something",
+   "split": "train",
+   "action": "Putting something into something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_4527|Opening something",
+   "split": "test",
+   "action": "Opening something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_4881|Closing something",
+   "split": "train",
+   "action": "Closing something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_5412|Putting something into something",
+   "split": "train",
+   "action": "Putting something into something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  },
+  {
+   "unit_id": "video_5904|Tearing something into pieces",
+   "split": "train",
+   "action": "Tearing something into pieces",
+   "events_in_video": 5,
+   "usable_events": 3,
+   "label": 3
+  },
+  {
+   "unit_id": "video_6334|Putting something on top of something",
+   "split": "train",
+   "action": "Putting something on top of something",
+   "events_in_video": 2,
+   "usable_events": 1,
+   "label": 1
+  }
+ ]
+}

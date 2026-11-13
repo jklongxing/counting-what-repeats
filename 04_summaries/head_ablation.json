@@ -1,0 +1,42 @@
+{
+  "linear": {
+    "overall": 0.74,
+    "overall_ci": [
+      0.703,
+      0.774
+    ],
+    "once": 0.8079,
+    "repeated": 0.5789,
+    "repeated_ci": [
+      0.504,
+      0.65
+    ]
+  },
+  "mlp": {
+    "overall": 0.7886,
+    "overall_ci": [
+      0.753,
+      0.82
+    ],
+    "once": 0.8818,
+    "repeated": 0.5673,
+    "repeated_ci": [
+      0.492,
+      0.639
+    ]
+  },
+  "lora_text": {
+    "repeated": 0.4386,
+    "repeated_ci": [
+      0.366,
+      0.514
+    ]
+  },
+  "zero_shot": {
+    "repeated": 0.4269,
+    "repeated_ci": [
+      0.355,
+      0.502
+    ]
+  }
+}

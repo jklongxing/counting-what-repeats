@@ -1,0 +1,18 @@
+{
+  "hidden": "hidden3_Qwen3-VL-8B-Instruct_32f.pt",
+  "dim": 4096,
+  "train_units": 551,
+  "dev_units": 122,
+  "binary": {
+    "C": 0.003,
+    "cv_train_accuracy": 0.7133,
+    "dev_accuracy": 0.6557,
+    "dev_macro_f1": 0.6543
+  },
+  "fourway": {
+    "C": 0.01,
+    "cv_train_accuracy": 0.599,
+    "dev_accuracy": 0.5492,
+    "dev_macro_f1": 0.4808
+  }
+}
