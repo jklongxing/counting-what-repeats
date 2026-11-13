@@ -1,0 +1,184 @@
+{
+  "task": "video-level action occurrence count, 32-frame fixed grid",
+  "zip_sha256": "9eaa6aad3fabdf4cde4955f333cfddf3b9e6839c5abcb271afa410870f640d78",
+  "seed": 20261105,
+  "per_cell_cap": 40,
+  "min_cell": 20,
+  "units_all": 5589,
+  "invalid_events": 68,
+  "videos_scanned": 1979,
+  "pool_videos": 1934,
+  "qualified_repeat_videos": 885,
+  "candidate_units": 3745,
+  "cells": {
+    "Closing something": {
+      "available": {
+        "once": 133,
+        "repeated": 50
+      },
+      "per_cell": 40
+    },
+    "Covering something with something": {
+      "available": {
+        "once": 80,
+        "repeated": 43
+      },
+      "per_cell": 40
+    },
+    "Folding something": {
+      "available": {
+        "once": 33,
+        "repeated": 21
+      },
+      "per_cell": 21
+    },
+    "Holding something in a state": {
+      "available": {
+        "once": 191,
+        "repeated": 24
+      },
+      "per_cell": 24
+    },
+    "Mixing something with something": {
+      "available": {
+        "once": 130,
+        "repeated": 32
+      },
+      "per_cell": 32
+    },
+    "Moving object(s) around": {
+      "available": {
+        "once": 258,
+        "repeated": 82
+      },
+      "per_cell": 40
+    },
+    "Opening something": {
+      "available": {
+        "once": 229,
+        "repeated": 92
+      },
+      "per_cell": 40
+    },
+    "Pouring something from something into something": {
+      "available": {
+        "once": 102,
+        "repeated": 21
+      },
+      "per_cell": 21
+    },
+    "Putting something into something": {
+      "available": {
+        "once": 79,
+        "repeated": 140
+      },
+      "per_cell": 40
+    },
+    "Putting something on top of something": {
+      "available": {
+        "once": 138,
+        "repeated": 181
+      },
+      "per_cell": 40
+    },
+    "Showing something to the camera": {
+      "available": {
+        "once": 110,
+        "repeated": 145
+      },
+      "per_cell": 40
+    },
+    "Taking something out of something": {
+      "available": {
+        "once": 55,
+        "repeated": 24
+      },
+      "per_cell": 24
+    }
+  },
+  "picked_units": 3745,
+  "balanced_units": 804,
+  "picked_videos": 1583,
+  "split_units": {
+    "train": 2584,
+    "dev": 580,
+    "test": 581
+  },
+  "split_videos": {
+    "train": 1108,
+    "dev": 237,
+    "test": 238
+  },
+  "count_distribution": {
+    "1": 2611,
+    "2": 687,
+    "3": 306,
+    "4": 80,
+    "5": 40,
+    "6": 15,
+    "7": 4,
+    "8": 2
+  },
+  "action_counts": {
+    "Breaking something": 40,
+    "Browsing through something": 30,
+    "Buttoning up a button": 2,
+    "Clapping hands": 12,
+    "Clicking something": 5,
+    "Closing something": 183,
+    "Covering something with something": 123,
+    "Crumpling something": 13,
+    "Cutting something with something": 6,
+    "Drinking something from something": 12,
+    "Dropping something on top of something": 30,
+    "Dunking something": 2,
+    "Folding something": 54,
+    "Hitting something against/with something": 44,
+    "Holding something in a state": 215,
+    "Indicating a region with the hand": 37,
+    "Ironing something": 13,
+    "Jingling something": 10,
+    "Juggling something": 15,
+    "Launching something": 87,
+    "Lifting something and placing it back down": 64,
+    "Mixing something with something": 162,
+    "Moving object(s) around": 340,
+    "Opening something": 321,
+    "Other": 17,
+    "Plugging something into something": 29,
+    "Pouring something from something into something": 123,
+    "Pretending to break something": 6,
+    "Pretending to clap hands": 8,
+    "Pretending to cover something": 29,
+    "Pretending to cut something (with a knife or scissors)": 1,
+    "Pretending to drink from something": 9,
+    "Pretending to iron something": 13,
+    "Pretending to mix": 9,
+    "Pretending to open something": 13,
+    "Pretending to pour from something into something": 30,
+    "Pretending to put something into something": 38,
+    "Pretending to tie something": 12,
+    "Pretending to unplug something from something": 22,
+    "Pretending to write or draw on a piece of paper": 9,
+    "Pulling something": 9,
+    "Pushing something": 17,
+    "Putting something into something": 219,
+    "Putting something on top of something": 319,
+    "Rotating something": 62,
+    "Showing something to the camera": 255,
+    "Shuffling objects": 201,
+    "Snapping fingers": 2,
+    "Spreading something": 2,
+    "Taking something out of something": 79,
+    "Tearing something into pieces": 27,
+    "Trying to close something but something prevents that": 56,
+    "Trying to turn something on but not working": 2,
+    "Turning something off": 57,
+    "Turning something on": 95,
+    "Tying something": 62,
+    "Unfolding something": 35,
+    "Unplugging something from something": 19,
+    "Working on a computer": 8,
+    "Writing or drawing something on a piece of paper": 31
+  }
+}

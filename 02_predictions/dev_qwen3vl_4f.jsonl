@@ -1,0 +1,26 @@
+{"unit_id": "video_10098|Turning something on", "video_id": "video_10098", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10098|Turning something on", "video_id": "video_10098", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10150|Moving object(s) around", "video_id": "video_10150", "action": "Moving object(s) around", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10583|Opening something", "video_id": "video_10583", "action": "Opening something", "split": "dev", "count": 1, "answer": "1", "pred": 0, "raw": "0", "frames": 4}
+{"unit_id": "video_10583|Turning something on", "video_id": "video_10583", "action": "Turning something on", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10583|Turning something on", "video_id": "video_10583", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10583|Turning something on", "video_id": "video_10583", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_10903|Lifting something and placing it back down", "video_id": "video_10903", "action": "Lifting something and placing it back down", "split": "dev", "count": 2, "answer": "2", "pred": 2, "raw": "2", "frames": 4}
+{"unit_id": "video_10903|Lifting something and placing it back down", "video_id": "video_10903", "action": "Lifting something and placing it back down", "split": "dev", "count": 2, "answer": "2", "pred": 2, "raw": "2", "frames": 4}
+{"unit_id": "video_11066|Shuffling objects", "video_id": "video_11066", "action": "Shuffling objects", "split": "dev", "count": 2, "answer": "2", "pred": 2, "raw": "2", "frames": 4}
+{"unit_id": "video_11066|Shuffling objects", "video_id": "video_11066", "action": "Shuffling objects", "split": "dev", "count": 2, "answer": "2", "pred": 2, "raw": "2", "frames": 4}
+{"unit_id": "video_11311|Lifting something and placing it back down", "video_id": "video_11311", "action": "Lifting something and placing it back down", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11311|Lifting something and placing it back down", "video_id": "video_11311", "action": "Lifting something and placing it back down", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11311|Turning something on", "video_id": "video_11311", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11311|Turning something on", "video_id": "video_11311", "action": "Turning something on", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11417|Holding something in a state", "video_id": "video_11417", "action": "Holding something in a state", "split": "dev", "count": 2, "answer": "2", "pred": 3, "raw": "3", "frames": 4}
+{"unit_id": "video_11417|Holding something in a state", "video_id": "video_11417", "action": "Holding something in a state", "split": "dev", "count": 2, "answer": "2", "pred": 3, "raw": "3", "frames": 4}
+{"unit_id": "video_11417|Turning something on", "video_id": "video_11417", "action": "Turning something on", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11417|Turning something on", "video_id": "video_11417", "action": "Turning something on", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_1150|Opening something", "video_id": "video_1150", "action": "Opening something", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_1150|Putting something into something", "video_id": "video_1150", "action": "Putting something into something", "split": "dev", "count": 2, "answer": "2", "pred": 2, "raw": "2", "frames": 4}
+{"unit_id": "video_11502|Mixing something with something", "video_id": "video_11502", "action": "Mixing something with something", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11515|Putting something on top of something", "video_id": "video_11515", "action": "Putting something on top of something", "split": "dev", "count": 2, "answer": "2", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_11527|Putting something on top of something", "video_id": "video_11527", "action": "Putting something on top of something", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_1262|Dropping something on top of something", "video_id": "video_1262", "action": "Dropping something on top of something", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}
+{"unit_id": "video_1262|Dropping something on top of something", "video_id": "video_1262", "action": "Dropping something on top of something", "split": "dev", "count": 1, "answer": "1", "pred": 1, "raw": "1", "frames": 4}

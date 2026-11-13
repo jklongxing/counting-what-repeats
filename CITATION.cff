@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software and evaluation artifact release using its version-specific Zenodo DOI once assigned."
+type: software
+title: "Supervision and Readout for Action-Conditioned Counting in Natural Videos"
+version: "1.0"
+authors:
+  - family-names: Ji
+    given-names: Quan
+    affiliation: Tianjin Electronic Information College
+    orcid: "https://orcid.org/0009-0003-2712-0352"
+repository-code: "https://github.com/jklongxing/counting-what-repeats"
+url: "https://github.com/jklongxing/counting-what-repeats"
+license: MIT
+abstract: "Evaluation software and archived results for action-conditioned counting in natural videos. MIT applies to project software; derived data and project figures use CC BY 4.0 as specified in DATA_LICENSE.md. Countix upstream labels and question text are not redistributed."
+keywords:
+  - video question answering
+  - action counting
+  - vision-language models
+  - representation probing
+  - Perception Test
