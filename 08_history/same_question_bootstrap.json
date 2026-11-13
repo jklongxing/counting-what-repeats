@@ -1,0 +1,14 @@
+{
+ "pairs": 130,
+ "units": 260,
+ "videos_total": 149,
+ "videos_once_side": 89,
+ "videos_repeated_side": 96,
+ "delta_pp": 10.77,
+ "ci_pp": [
+  1.7,
+  19.1
+ ],
+ "p": "0.0240",
+ "note": "two-way video-cluster bootstrap, 2000 draws"
+}
