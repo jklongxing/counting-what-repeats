@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "adapter": null,
+ "units": 577,
+ "prior_conditional": 0.1899,
+ "prior_conditional_n": 158,
+ "js_divergence": 0.1708,
+ "parsed": 577,
+ "parse_rate": 1.0,
+ "overall": 0.4142,
+ "single": 0.4951,
+ "repeated": 0.2222,
+ "binary": 0.6759,
+ "exact": 0.409
+}

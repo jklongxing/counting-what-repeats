@@ -1,0 +1,5 @@
+# Qwen2.5-VL-7B second-backbone retrain (explicit args, matches Qwen3 main recipe)
+# date_utc: 2026-11-17T02:08:13Z
+# base_model: /home/jiquan/video-state-evidence/pilot_20261008/model
+# weight_decay 0.01 and LoRA r=16/alpha=32 are fixed in train_lora.py
+/home/jiquan/video-state-evidence/pilot_20261008/.venv/bin/python train_lora.py --model /home/jiquan/video-state-evidence/pilot_20261008/model --epochs 1 --lr 1e-4 --accum 8 --max-pixels 448 --seed 0 --lora-dropout 0.05 --gpu 2 --tag lora_q25_repro

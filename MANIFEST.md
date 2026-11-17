@@ -1,56 +1,62 @@
-# Release manifest
+# Result-to-file manifest
 
-Prepared 13 November 2026 for `v1.0`. Associated manuscript: **Supervision and Readout for Action-Conditioned Counting in Natural Videos**, submission v11.
+Updated 17 November 2026 for **Overall Accuracy Gains Mask Repetition Errors in Supervised Video Counting**, with four main tables and supplementary Tables S1–S15. The earlier 14-table map is preserved in `08_history/MANIFEST_v1.0.md`. This working-tree update does not alter the existing v1.0 Zenodo archive.
 
-## File inventory
+The root SHA-256 list records file membership and integrity, excluding itself. Summary names below are relative to `04_summaries/`; prediction names are relative to `02_predictions/` unless a full repository path is given. These are evidence mappings, not claims of independent recomputation of every cell or interval.
 
-| Directory | Files |
-|---|---:|
-| `01_benchmark/` | 8 |
-| `02_predictions/` | 119 |
-| `03_scores/` | 4 |
-| `04_summaries/` | 108 |
-| `05_figures/` | 9 |
-| `06_documents/` | 2 |
-| `07_scripts/` | 30 |
-| `08_history/` | 5 |
+## Main article
 
-Root files contain the README, licenses, citation, manifest, validation report and SHA-256 list. The complete checksum list is authoritative for membership; it excludes itself.
+| Item | Evidence |
+|---|---|
+| Table 1: core configurations | `canonical_results.json`, `head_ablation.json`, `v3_test_lora_bal_summary.json`; corresponding `v3_test_*` and `probe3_lora_test.jsonl` predictions. The new Qwen2.5 LoRA row uses `09_qwen25_update/repro1_test_predictions.jsonl` and its summary, replacing the historical `v3_test_q25_lora` result. |
+| Table 2: output/classifier-input controls | `output_calibration.json`, `matched_calibration_and_groups.json`, `calibration_frontier.json`, `extra_controls.json`, `plane_points.json`; `scorehead_test.jsonl` and `probe3_lora_test.jsonl`. |
+| Table 3: both-correct paired questions | `same_video_all_splits.json` (test), `extra_controls.json` (`same_question`), benchmark units and corresponding zero-shot/LoRA/readout predictions. Same-question comparisons are descriptive. |
+| Table 4: Countix | `countix_refit.json`, `countix_readout.json`, `countix_base_summary.json`, `countix_lora_summary.json`; `countix_base.jsonl`, `countix_lora.jsonl` and `countix_refit_seed0.jsonl` through `seed4.jsonl`. The non-refitted readout is aggregate-only; obtain labels separately. |
+| Figure 1: overall/repeated accuracy | `05_figures/sivp_20261117/Fig1.pdf`; configurations in Table 1. |
+| Figure 2: adapter-matched readout | `05_figures/sivp_20261117/Fig2.pdf`; `multiseed_probe.json` and text summaries `v3_test_lora_32f`, `v3_test_seed7`, `v3_test_seed8`. |
+| Figure 3: frame budgets | `05_figures/sivp_20261117/Fig3.pdf`; `canonical_results.json` and `frame_curves_other_models.json`. |
+| Figure 4: single/repeated points | `05_figures/sivp_20261117/Fig4.pdf`; `plane_points.json`. |
 
-## Current manuscript map
+## Online Resource 1: Tables S1–S15
 
-All unqualified summary names below are in `04_summaries/`; prediction names are in `02_predictions/`. A mapping records provenance, not a claim that every cell has an independent runnable check.
+| Table | Evidence |
+|---|---|
+| S1: frame budget sweep | `canonical_results.json` (`frame_curve_qwen3`); `v3_dev_4f.jsonl`, `v3_dev_8f.jsonl`, `v3_dev_16f.jsonl`, `v3_dev_base_32f.jsonl`, `v3_dev_128f.jsonl`, `v3_dev_256f.jsonl`. |
+| S2: adapter-matched readout | `multiseed_probe.json`; text predictions `v3_test_lora_32f.jsonl`, `v3_test_seed7.jsonl`, `v3_test_seed8.jsonl`. Readout values summarize five classifier seeds per adapter. |
+| S3: accuracy by true count | `01_benchmark/evaluable_units.jsonl`, `v3_test_base_32f.jsonl`, `v3_test_lora_32f.jsonl`, `probe3_lora_test.jsonl`; by-count check in `07_scripts/audit_round2.py`. |
+| S4: same-video groups by size | `same_video_groups.json`; these all-correct groups differ from the exhaustive pairs in main Table 3. |
+| S5: output calibration | `output_calibration.json`, `matched_calibration_and_groups.json`, `calibration_frontier.json`; free-generation predictions `v3_test_lora_32f.jsonl` and `val_lora_32f.jsonl`. |
+| S6: same-question pairs | `extra_controls.json` (`same_question`); paired-answer checks in `07_scripts/audit_round2.py`. |
+| S7: reported run settings | The supplementary configuration table and archived scripts including `07_scripts/multiseed_probe.py` and `07_scripts/head_ablation.py`; a configuration record, not a complete training package. Separate Qwen2.5 commands/settings are in `09_qwen25_update/`. |
+| S8: supervision across splits | `canonical_results.json`; `v3_test_base_32f.jsonl`, `v3_test_lora_32f.jsonl`, `v3_test_fullft.jsonl`, `v3_dev_base_32f.jsonl`, `v3_dev_lora_32f.jsonl`, `val_base_32f.jsonl`, `val_lora_32f.jsonl`. |
+| S9: zero-shot models and priors | `canonical_results.json`; `v3_test_base_32f.jsonl`, `v3_test_qwen25_base.jsonl`, `v3_test_internvl.jsonl`, `v3_test_internvl25.jsonl`; priors use derived training units. |
+| S10: same-video pairs across splits | `same_video_all_splits.json` and split-specific predictions. |
+| S11: score-input versus hidden-state classifier | `extra_controls.json` (`score_head`); `scorehead_test.jsonl`, `scorehead_val.jsonl`, `probe3_lora_test.jsonl`, `probe3_lora_val.jsonl`. |
+| S12: Countix training sources/evaluation | `countix_refit.json`, `countix_readout.json`, `countix_overlap.json` and the final Countix predictions listed for main Table 4. |
+| S13: training-subset diagnostic | `probe_ablation.json` (`data_ablation`); a separate fixed-seed diagnostic, not the primary readout result. |
+| S14: text/logistic/MLP readout | `head_ablation.json`, `canonical_results.json`; `v3_test_lora_32f.jsonl`, `probe3_lora_test.jsonl`, `val_lora_32f.jsonl`, `probe3_lora_val.jsonl`. |
+| S15: nine operating points | `canonical_results.json`, `head_ablation.json`, `plane_points.json`. Main Figure 4 additionally includes calibration and score-space controls. |
 
-| Manuscript item | Archived evidence | Reproduction route |
-|---|---|---|
-| Table 1, configurations | Manuscript configurations and archived experiment scripts | Descriptive configuration record; not a numerical audit |
-| Table 2, zero-shot | `canonical_results.json`, `v3_test_*` predictions, derived labels | `audit_recompute.py` for its explicit rows |
-| Table 3, frame budget | `v3_dev_{4,8,16,128,256}f`, `v3_dev_base_32f`, `canonical_results.json` | `audit_recompute.py` |
-| Table 4, supervision | `v3_test_lora_32f`, `v3_test_fullft`, base/VAL predictions, canonical summary | `audit_recompute.py`; prior definitions in canonical script |
-| Table 5, readout | `probe3_lora_*`, `head_ablation.json`, canonical summary | Audit checks for its explicit configurations; ablation summary for the others |
-| Table 6, adapter seeds | `multiseed_probe.json`, seed-specific prediction files | Selected adapter checks in first audit; archived multiseed analysis |
-| Section 4.5, human-written questions | `mc_units.jsonl`, `mc_*`, `rescore_mc_and_ordering.json`, `mc_readout.json` | Both audits' implemented checks |
-| Section 4.6, synthetic data | `synth_test_eval_summary.json`, `v3_test_synth_32f*` | Archived analysis and predictions |
-| Table 7, true count | Evaluable units and zero-shot/LoRA/readout predictions | `audit_round2.py` |
-| Section 4.8, supporting slots | `review_analyses.json` | Original script requires source evidence metadata |
-| Table 8, single/repeated plane | `canonical_results.json`, `head_ablation.json`, `plane_points.json` | `audit_round2.py` for its explicit points |
-| Tables 9–10, same-video pairs/groups | `same_video_all_splits.json`, `same_video_groups.json`, predictions | Selected pair checks in second audit; archived group analyses |
-| Table 11, calibration | `output_calibration.json`, `matched_calibration_and_groups.json`, `calibration_frontier.json` | Archived calibration analyses; implemented checks in second audit |
-| Tables 12–13, same-question and score head | `extra_controls.json`, `scorehead_test.jsonl`, `scorehead_val.jsonl` | `audit_round2.py`; no active same-question CI |
-| Table 14, Countix | `countix_refit.json`, `countix_readout.json`, released project predictions | External labels + `recompute_countix.py` for text/refit rows; non-refitted readout is aggregate-only |
-| Section 3 label consistency check | `label_risk.json` | Original consistency-check script requires source annotations |
-| Figures 1–8 / graphical abstract | `05_figures/` | Exact v11 submission PNGs; layout source for Figures 1/5 added separately |
+Other supplementary diagnostics use `label_risk.json`, `review_analyses.json`, `rescore_mc_and_ordering.json`, `mc_readout.json`, `synth_test_eval_summary.json` and corresponding predictions/scripts. Their input requirements differ; see `REPRODUCIBILITY.md`.
 
-## Run and history conventions
+## Online Resource 2: Qwen2.5 update
 
-Main configurations include `v3_test_base_32f`, `v3_test_lora_32f`, `v3_test_fullft`, `probe3_lora_test`, adapter seeds 7/8, the `v3_dev_*` frame sweeps, and `val_*` / `probe3_lora_val`. Earlier `dev2_*`, `test_*`, `probeL_*`, `probeQ25L*` files are retained provenance, not replacements for the mapped final runs.
+`09_qwen25_update/` contains the 13 run/check records and English PDF note supplied in `ESM_2_Qwen25_Provenance.zip`, plus an editable Markdown copy of the note. The new test records cover 577 questions (406 single, 171 repeated). `07_scripts/audit_qwen25.py` recomputes their metrics.
 
-For Countix refitting use the five `countix_refit_seed0`–`seed4` files and the final `countix_refit.json`. The historical audit report's 57.8% is superseded; current mean is 56.47% (56.5% in the manuscript). Published JSONL records retain project predictions but omit upstream Countix labels/text; see the reproduction note.
+| Run | Overall (%) | Single (%) | Repeated (%) | Answer-one share (%) |
+|---|---:|---:|---:|---:|
+| Baseline | 41.4 | 49.5 | 22.2 | 49.6 |
+| repro1 (main Table 1) | 78.3 | 97.8 | 32.2 | 84.9 |
+| repro2 (Section 4.1) | 78.0 | 94.1 | 39.8 | 79.7 |
 
-The withdrawn same-question bootstrap has moved to `08_history/`. It is not the method used for a reported interval. No old manuscript or internal review memo is part of this release.
+Both adapted runs share the recorded hyperparameters and seed argument; the source of their difference was not isolated. The three `repro_check_60.txt`, `repro60_q25v3_records.jsonl` and `repro60_records.log` files concern the earlier `lora_q25_v3` adapter and do not verify repro1 or repro2.
 
-## Immutable evidence and preparation changes
+## Historical evidence
 
-Perception Test unit, prediction and score files, and all copied aggregate-result JSONs, are byte-identical to the local source archive. The only record projections are the declared Countix JSONL field removals. Figure files match the v11 submission package. Original source files and the manuscript have not been edited.
+The earlier Qwen2.5 LoRA result of 9.4% repeated-action accuracy could not be reproduced from the recorded recipe and was replaced. Its files, including `v3_test_q25_lora.jsonl` and `v3_test_q25_lora_summary.json`, remain historical records, not the current Qwen2.5 result. Likewise, `dev2_*`, `test_*`, `probeL_*` and `probeQ25L*` prefixes do not identify the current main configurations by themselves.
 
-The two ready-to-run audit scripts change only their bundle-root path. Other research scripts retain their historical paths and dependencies. Read `REPRODUCIBILITY.md` before using them.
+Original aggregate JSONs remain unchanged so readers can recover the v1.0 analyses. They have not been rewritten to adopt the current table layout or new Qwen2.5 results. The original two audits also retain their numerical logic and expected values. Use this map and `06_documents/SIVP_20261117_UPDATE.md` to identify current evidence.
+
+For Countix refitting, use `countix_refit_seed0`–`seed4` and final `countix_refit.json`: 56.47% mean, reported as 56.5%. The 57.8% in an earlier report is superseded. Countix JSONL files omit upstream labels/text; follow `06_documents/COUNTIX_REPRODUCTION.md`.
+
+The withdrawn same-question bootstrap stays in `08_history/` and supplies no active reported interval. Original PNGs directly under `05_figures/` retain the earlier v1.0 figure numbering. Current main figures are the four PDFs in `05_figures/sivp_20261117/`. Manuscript drafts and cover letters are not distributed here.

@@ -1,0 +1,14 @@
+fixed check set: 60 questions
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 78.37it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  10/60
+  20/60
+  30/60
+  40/60
+  50/60
+  60/60
+
+per-question records saved: /home/jiquan/video-state-evidence/repetition_readout_v1/runs/repro60_q25v3_records.jsonl (60 rows)
+agreement  pred 60/60 = 1.000   raw 60/60 = 1.000

@@ -1,0 +1,60 @@
+video_10128|Turning something off
+video_10131|Opening something
+video_10403|Putting something on top of something
+video_10407|Showing something to the camera
+video_10919|Covering something with something
+video_10964|Opening something
+video_10982|Putting something into something
+video_11311|Turning something on
+video_11575|Pouring something from something into something
+video_1185|Showing something to the camera
+video_1593|Closing something
+video_1611|Launching something
+video_1645|Putting something on top of something
+video_1797|Moving object(s) around
+video_187|Pretending to unplug something from something
+video_191|Putting something on top of something
+video_2352|Launching something
+video_2372|Putting something on top of something
+video_2486|Putting something on top of something
+video_254|Putting something on top of something
+video_2779|Hitting something against/with something
+video_3077|Covering something with something
+video_3284|Holding something in a state
+video_3284|Pretending to unplug something from something
+video_3835|Taking something out of something
+video_3838|Moving object(s) around
+video_4913|Unplugging something from something
+video_4961|Putting something on top of something
+video_5187|Closing something
+video_5187|Opening something
+video_5206|Putting something into something
+video_5318|Putting something on top of something
+video_5318|Trying to close something but something prevents that
+video_5340|Showing something to the camera
+video_540|Moving object(s) around
+video_5566|Showing something to the camera
+video_5580|Launching something
+video_5749|Showing something to the camera
+video_5831|Opening something
+video_6533|Other
+video_6660|Shuffling objects
+video_6755|Showing something to the camera
+video_6828|Rotating something
+video_6879|Putting something on top of something
+video_7100|Moving object(s) around
+video_7263|Putting something on top of something
+video_7543|Pretending to iron something
+video_787|Tying something
+video_8210|Moving object(s) around
+video_8370|Covering something with something
+video_8499|Putting something on top of something
+video_8789|Covering something with something
+video_8789|Moving object(s) around
+video_8819|Showing something to the camera
+video_888|Closing something
+video_9130|Showing something to the camera
+video_9193|Launching something
+video_9540|Putting something into something
+video_9584|Pouring something from something into something
+video_9988|Indicating a region with the hand

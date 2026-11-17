@@ -1,0 +1,15 @@
+{
+ "split": "test",
+ "adapter": "/home/jiquan/video-state-evidence/repetition_readout_v1/runs/lora_q25_repro",
+ "units": 577,
+ "prior_conditional": 0.3544,
+ "prior_conditional_n": 158,
+ "js_divergence": 0.0322,
+ "parsed": 577,
+ "parse_rate": 1.0,
+ "overall": 0.7834,
+ "single": 0.9778,
+ "repeated": 0.3216,
+ "binary": 0.8232,
+ "exact": 0.773
+}

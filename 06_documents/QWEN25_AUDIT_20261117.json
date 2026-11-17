@@ -1,0 +1,296 @@
+{
+  "passed": true,
+  "protocol": {
+    "four_way": "Count buckets 1, 2, 3, 4+; zero is not clamped to one.",
+    "missing_or_invalid": "Errors retained in every relevant denominator.",
+    "parsed": "Integer prediction, including zero; bool is excluded.",
+    "binary": "Integer prediction below 2 versus at least 2.",
+    "answer_one_rate": "Number of integer predictions equal to 1 / all units.",
+    "summary_precision": "Fractions rounded to 4 decimal places.",
+    "historical_files_excluded": [
+      "repro_check_60.txt",
+      "repro60_q25v3_records.jsonl",
+      "repro60_records.log"
+    ],
+    "not_recomputed": [
+      "prior_conditional",
+      "prior_conditional_n",
+      "js_divergence"
+    ],
+    "scope": "Arithmetic and identity audit only; no inference/training reproduction."
+  },
+  "matching_unit_ids_and_ground_truth": true,
+  "runs": {
+    "base": {
+      "counts": {
+        "units": 577,
+        "single_units": 406,
+        "repeated_units": 171,
+        "parsed": 577,
+        "positive_integer_predictions": 404,
+        "nonpositive_integer_predictions": 173,
+        "missing_or_noninteger_predictions": 0,
+        "overall_correct": 239,
+        "single_correct": 201,
+        "repeated_correct": 38,
+        "answer_one": 286,
+        "binary_correct": 390,
+        "exact_correct": 236
+      },
+      "fractions": {
+        "parse_rate": 1.0,
+        "overall": 0.41421143847487,
+        "single": 0.49507389162561577,
+        "repeated": 0.2222222222222222,
+        "answer_one_rate": 0.49566724436741766,
+        "binary": 0.6759098786828422,
+        "exact": 0.4090121317157712
+      },
+      "percentages": {
+        "parse_rate": 100.0,
+        "overall": 41.421144,
+        "single": 49.507389,
+        "repeated": 22.222222,
+        "answer_one_rate": 49.566724,
+        "binary": 67.590988,
+        "exact": 40.901213
+      },
+      "percentages_1dp": {
+        "parse_rate": 100.0,
+        "overall": 41.4,
+        "single": 49.5,
+        "repeated": 22.2,
+        "answer_one_rate": 49.6,
+        "binary": 67.6,
+        "exact": 40.9
+      },
+      "summary_comparison": {
+        "units": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parsed": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parse_rate": {
+          "recomputed": 1.0,
+          "archived": 1.0,
+          "matches": true
+        },
+        "overall": {
+          "recomputed": 0.41421143847487,
+          "archived": 0.4142,
+          "matches": true
+        },
+        "single": {
+          "recomputed": 0.49507389162561577,
+          "archived": 0.4951,
+          "matches": true
+        },
+        "repeated": {
+          "recomputed": 0.2222222222222222,
+          "archived": 0.2222,
+          "matches": true
+        },
+        "binary": {
+          "recomputed": 0.6759098786828422,
+          "archived": 0.6759,
+          "matches": true
+        },
+        "exact": {
+          "recomputed": 0.4090121317157712,
+          "archived": 0.409,
+          "matches": true
+        }
+      },
+      "input_sha256": {
+        "base_test_predictions.jsonl": "66e3071510b438a1cc49191660e69fcc066b89512a248049c2b10c0f106bea6c",
+        "base_test_summary.json": "d28305ae34c938312656e2045d3be72c5823e29e20d32b333715a8f7716d8505"
+      }
+    },
+    "repro1": {
+      "counts": {
+        "units": 577,
+        "single_units": 406,
+        "repeated_units": 171,
+        "parsed": 577,
+        "positive_integer_predictions": 577,
+        "nonpositive_integer_predictions": 0,
+        "missing_or_noninteger_predictions": 0,
+        "overall_correct": 452,
+        "single_correct": 397,
+        "repeated_correct": 55,
+        "answer_one": 490,
+        "binary_correct": 475,
+        "exact_correct": 446
+      },
+      "fractions": {
+        "parse_rate": 1.0,
+        "overall": 0.7833622183708839,
+        "single": 0.9778325123152709,
+        "repeated": 0.3216374269005848,
+        "answer_one_rate": 0.8492201039861352,
+        "binary": 0.8232235701906413,
+        "exact": 0.7729636048526863
+      },
+      "percentages": {
+        "parse_rate": 100.0,
+        "overall": 78.336222,
+        "single": 97.783251,
+        "repeated": 32.163743,
+        "answer_one_rate": 84.92201,
+        "binary": 82.322357,
+        "exact": 77.29636
+      },
+      "percentages_1dp": {
+        "parse_rate": 100.0,
+        "overall": 78.3,
+        "single": 97.8,
+        "repeated": 32.2,
+        "answer_one_rate": 84.9,
+        "binary": 82.3,
+        "exact": 77.3
+      },
+      "summary_comparison": {
+        "units": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parsed": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parse_rate": {
+          "recomputed": 1.0,
+          "archived": 1.0,
+          "matches": true
+        },
+        "overall": {
+          "recomputed": 0.7833622183708839,
+          "archived": 0.7834,
+          "matches": true
+        },
+        "single": {
+          "recomputed": 0.9778325123152709,
+          "archived": 0.9778,
+          "matches": true
+        },
+        "repeated": {
+          "recomputed": 0.3216374269005848,
+          "archived": 0.3216,
+          "matches": true
+        },
+        "binary": {
+          "recomputed": 0.8232235701906413,
+          "archived": 0.8232,
+          "matches": true
+        },
+        "exact": {
+          "recomputed": 0.7729636048526863,
+          "archived": 0.773,
+          "matches": true
+        }
+      },
+      "input_sha256": {
+        "repro1_test_predictions.jsonl": "58eb4f49d33b0aa15b3b5589ece69070dbe9587af74ffb4cadb5a72972375a40",
+        "repro1_test_summary.json": "778a172374f822cff049d407279197d736975e67c369f4cd8f70fdfdc209c3cb"
+      }
+    },
+    "repro2": {
+      "counts": {
+        "units": 577,
+        "single_units": 406,
+        "repeated_units": 171,
+        "parsed": 577,
+        "positive_integer_predictions": 577,
+        "nonpositive_integer_predictions": 0,
+        "missing_or_noninteger_predictions": 0,
+        "overall_correct": 450,
+        "single_correct": 382,
+        "repeated_correct": 68,
+        "answer_one": 460,
+        "binary_correct": 475,
+        "exact_correct": 442
+      },
+      "fractions": {
+        "parse_rate": 1.0,
+        "overall": 0.779896013864818,
+        "single": 0.9408866995073891,
+        "repeated": 0.39766081871345027,
+        "answer_one_rate": 0.7972270363951474,
+        "binary": 0.8232235701906413,
+        "exact": 0.7660311958405546
+      },
+      "percentages": {
+        "parse_rate": 100.0,
+        "overall": 77.989601,
+        "single": 94.08867,
+        "repeated": 39.766082,
+        "answer_one_rate": 79.722704,
+        "binary": 82.322357,
+        "exact": 76.60312
+      },
+      "percentages_1dp": {
+        "parse_rate": 100.0,
+        "overall": 78.0,
+        "single": 94.1,
+        "repeated": 39.8,
+        "answer_one_rate": 79.7,
+        "binary": 82.3,
+        "exact": 76.6
+      },
+      "summary_comparison": {
+        "units": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parsed": {
+          "recomputed": 577,
+          "archived": 577,
+          "matches": true
+        },
+        "parse_rate": {
+          "recomputed": 1.0,
+          "archived": 1.0,
+          "matches": true
+        },
+        "overall": {
+          "recomputed": 0.779896013864818,
+          "archived": 0.7799,
+          "matches": true
+        },
+        "single": {
+          "recomputed": 0.9408866995073891,
+          "archived": 0.9409,
+          "matches": true
+        },
+        "repeated": {
+          "recomputed": 0.39766081871345027,
+          "archived": 0.3977,
+          "matches": true
+        },
+        "binary": {
+          "recomputed": 0.8232235701906413,
+          "archived": 0.8232,
+          "matches": true
+        },
+        "exact": {
+          "recomputed": 0.7660311958405546,
+          "archived": 0.766,
+          "matches": true
+        }
+      },
+      "input_sha256": {
+        "repro2_test_predictions.jsonl": "4da1349051d9368a4604df0cc15745cbb585662108c4e3bc62996202d49ef0cb",
+        "repro2_test_summary.json": "bbb53a553e1ae0878691e01c383c7de83a4a3259ba54f91028c1d23d0e4a809f"
+      }
+    }
+  },
+  "errors": []
+}

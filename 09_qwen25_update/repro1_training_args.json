@@ -1,0 +1,37 @@
+{
+ "args": {
+  "model": "/home/jiquan/video-state-evidence/pilot_20261008/model",
+  "epochs": 1.0,
+  "lr": 0.0001,
+  "accum": 8,
+  "max_pixels": 448,
+  "tag": "lora_q25_repro",
+  "limit": 0,
+  "shuffle_labels": false,
+  "gpu": 2,
+  "seed": 0,
+  "sample": 0,
+  "class_balance": false,
+  "full_ft": false,
+  "units": "",
+  "train_split": "train",
+  "lora_dropout": 0.05
+ },
+ "lora": {
+  "r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ]
+ },
+ "weight_decay": 0.01,
+ "steps": 319,
+ "saved_utc": "2026-11-17T04:19:33.076837"
+}

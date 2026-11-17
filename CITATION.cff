@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this software and evaluation artifact release using its version-specific Zenodo DOI once assigned."
+message: "This citation describes the v1.0 archive only. For later working-tree material, also cite the GitHub repository at the full commit SHA used."
 type: software
 title: "Supervision and Readout for Action-Conditioned Counting in Natural Videos"
 version: "1.0"
+doi: "10.5281/zenodo.24187160"
 authors:
   - family-names: Ji
     given-names: Quan
