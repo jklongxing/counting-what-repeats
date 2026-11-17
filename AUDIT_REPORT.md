@@ -40,3 +40,5 @@ The original report above describes v1.0. The following checks were run on the l
 The full arithmetic report is [QWEN25_AUDIT_20261117.json](06_documents/QWEN25_AUDIT_20261117.json). It records baseline/repro1/repro2 overall accuracies of 41.4/78.3/78.0%, single-occurrence accuracies of 49.5/97.8/94.1%, and repeated-action accuracies of 22.2/32.2/39.8%. Baseline predictions include 173 zeros; these are errors in the four-way 1/2/3/4+ metric and are not clamped to one. Historical 60-question records are excluded from the new-run evidence.
 
 The original benchmark, prediction, score and aggregate-summary files are retained unchanged. These checks verify arithmetic and file consistency, not training or inference reproduction. The existing v1.0 DOI remains unchanged and does not cover these additions. The updated SHA-256 manifest can be verified with `07_scripts/verify_release.py`.
+
+The repository attributes preserve released bytes across platforms; automatic line-ending conversion is disabled. A commit archive was verified against the SHA-256 manifest.

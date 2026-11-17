@@ -1,0 +1,4 @@
+# Preserve released artifact bytes on all platforms.
+* -text
+*.pdf binary
+*.png binary
